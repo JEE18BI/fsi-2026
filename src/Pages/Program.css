@@ -1,3 +1,10 @@
+:root {
+    --green: #00843D;
+    --gold: #FFCD00;
+    --black: #000000;
+    --white: #ffffff;
+    --lightgreen: #e2eae2;
+}
 .program {
     padding: 120px 20px;
     background: #ffffff;
@@ -55,7 +62,7 @@
 .timeline-date {
     position: absolute;
     left: -60px;
-    background: var(--green);
+    background: #090909;
     color: white;
     width: 71px;
     height: 70px;
@@ -203,7 +210,7 @@
 
 .timeline-content li {
     margin-bottom: 10px;
-    color: #444;
+    color: var(--green);
     font-size: 1rem;
     line-height: 1.6;
 }
