@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Navbar.css";
-
+import { Link } from "react-router-dom";
 function Navbar() {
     const [scrolled, setScrolled] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
@@ -20,12 +20,12 @@ function Navbar() {
                 <div className="logo">FSI 2026</div>
 
                 <div className={`nav-links ${menuOpen ? "open" : ""}`}>
-                    <a href="#">Home</a>
-                    <a href="#">Program</a>
-                    <a href="#">Players</a>
-                    <a href="#">Results</a>
-                    <a href="#">History</a>
-                    <a href="#">Sponsors</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/program">Program</Link>
+                    <Link to="/players">Players</Link>
+                    <Link to="/results">Results</Link>
+                    <Link to="/history">History</Link>
+                    <Link to="/sponsors">Sponsors</Link>
                 </div>
 
                 <div
