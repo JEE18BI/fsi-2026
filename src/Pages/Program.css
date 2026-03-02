@@ -384,3 +384,63 @@
     object-fit: cover;      /* crops nicely */
     display: block;
 }
+@media (max-width: 768px) {
+
+    /* HERO */
+    .history-hero {
+        height: 280px;
+    }
+
+    .hero-overlay h1 {
+        font-size: 1.8rem;
+        padding: 0 20px;
+    }
+
+    /* INTRO */
+    .history-intro {
+        margin: 50px auto;
+    }
+
+    .history-intro p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* STACK INTRO IMAGES */
+    .intro-images {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .intro-images img {
+        max-width: 100%;
+        height: 220px;
+    }
+
+    /* YEAR SECTIONS */
+    .history-year {
+        margin: 60px auto;
+    }
+
+    .history-year h2 {
+        font-size: 1.5rem;
+    }
+
+    .history-year p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    /* STACK FINALIST IMAGES */
+    .finalists-images {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .finalists-images img {
+        max-width: 100%;
+        height: 220px;
+    }
+}
