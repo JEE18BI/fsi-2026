@@ -21,11 +21,13 @@ function Navbar() {
 
                 <div className={`nav-links ${menuOpen ? "open" : ""}`}>
                     <Link to="/">Home</Link>
-                    <Link to="/program">Program</Link>
-                    <Link to="/players">Players</Link>
+                    <Link to="/history">History</Link>
                     <Link to="/officials">Officials</Link>
+                    <Link to="/schedule">Schedule</Link>
+                    <Link to="/players">Players</Link>
                     <Link to="/results">Blocks</Link>
                     <Link to="/sponsors">Sponsors</Link>
+
                 </div>
 
                 <div

@@ -39,7 +39,7 @@ function Home() {
             <section className="History">
                 <div className="history">
                     <h2>
-                        History of the event
+                        How did it start?
                     </h2>
                     <p>
                         The Fletcher Sharpe Invitational was first played in 2024 as the brainchild of Georgina Carnegie, then President of Cooks River Croquet Club.

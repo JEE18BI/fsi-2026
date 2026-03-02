@@ -1,0 +1,161 @@
+:root {
+    --green: #00843D;
+    --gold: #FFCD00;
+    --dark: #111;
+    --white: #fff;
+}
+
+/* ===== PAGE BASE ===== */
+
+.history-page {
+    background: var(--white);
+    font-family: 'Inter', sans-serif;
+}
+
+/* ===== HERO SLIDER ===== */
+
+.history-hero {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+}
+
+.history-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: fade 1s ease-in-out;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    color: var(--gold);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* ===== INTRO ===== */
+
+.history-intro {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.history-intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* ===== YEAR SECTIONS ===== */
+
+.history-year {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.history-year h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: var(--green);
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.history-year h2::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: var(--gold);
+    display: block;
+    margin-top: 10px;
+}
+
+.history-year p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.history-year strong {
+    color: var(--green);
+}
+
+/* ===== FADE ANIMATION ===== */
+
+@keyframes fade {
+    from { opacity: 0.6; }
+    to { opacity: 1; }
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+
+    .history-hero {
+        height: 300px;
+    }
+
+    .hero-overlay h1 {
+        font-size: 1.8rem;
+    }
+
+    .history-intro p {
+        font-size: 1rem;
+    }
+}
+/* ===== INTRO SIDE IMAGES ===== */
+
+.intro-images {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.intro-images img {
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.intro-images img:hover {
+    transform: scale(1.03);
+}
+/* ===== FINALIST IMAGES ===== */
+
+.finalists-images {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.finalists-images img {
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.finalists-images img:hover {
+    transform: scale(1.03);
+}

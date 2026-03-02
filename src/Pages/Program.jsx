@@ -3,9 +3,10 @@ import "./Program.css";
 function Program() {
     return (
         <section className="program">
+
             <div className="program-container">
 
-                <h1 className="program-title">Tournament Program</h1>
+                <h1 className="program-title">Tournament Schedule</h1>
 
                 <div className="timeline">
 

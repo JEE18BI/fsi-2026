@@ -3,7 +3,7 @@
 /* ========================= */
 
 .navbar {
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
@@ -11,6 +11,7 @@
     padding: 20px 40px;
     transition: 0.3s ease;
     background: black;
+    margin-bottom: 0;
 }
 
 .navbar.scrolled {
