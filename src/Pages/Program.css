@@ -265,3 +265,107 @@
         line-height: 1.5;
     }
 }
+/* ================= SECTION TITLES ================= */
+
+.section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: var(--green);
+    text-align: center;
+    margin: 90px 0 40px;
+}
+
+.role-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: var(--green);
+    text-align: center;
+    margin: 70px 0 30px;
+}
+
+/* ================= PEOPLE GRID ================= */
+
+.people-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.person-card {
+    text-align: center;
+}
+
+.person-card img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 132, 61, 0.2);
+    transition: 0.3s ease;
+}
+
+.person-card:hover img {
+    border-color: var(--gold);
+    transform: scale(1.05);
+}
+
+.person-card h4 {
+    margin-top: 12px;
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+}
+
+.person-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* ================= INFO BOX ================= */
+
+.info-box {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    background: rgba(0,0,0,0.03);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(0,132,61,0.1);
+}
+
+.info-box p {
+    margin-bottom: 10px;
+}
+
+/* ================= PRIZE SECTION ================= */
+
+.prize-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.prize-section img {
+    width: 300px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+    .people-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .people-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .person-card img {
+        width: 140px;
+        height: 140px;
+    }
+}

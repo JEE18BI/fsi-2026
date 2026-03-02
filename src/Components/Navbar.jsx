@@ -23,8 +23,8 @@ function Navbar() {
                     <Link to="/">Home</Link>
                     <Link to="/program">Program</Link>
                     <Link to="/players">Players</Link>
-                    <Link to="/results">Results</Link>
-                    <Link to="/history">History</Link>
+                    <Link to="/officials">Officials</Link>
+                    <Link to="/results">Blocks</Link>
                     <Link to="/sponsors">Sponsors</Link>
                 </div>
 
