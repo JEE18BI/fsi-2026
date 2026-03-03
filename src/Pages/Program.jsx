@@ -6,7 +6,7 @@ function Program() {
 
             <div className="program-container">
 
-                <h1 className="program-title">Tournament Schedule</h1>
+                <h1 className="program-title">Tournament Details </h1>
 
                 <div className="timeline">
 
@@ -68,10 +68,10 @@ function Program() {
                         </div>
 
                         <div className="timeline-content">
-                            <h3>Saturday – Anzac Day</h3>
+                            <h3>Saturday – Anzac Day - Australian National Holiday</h3>
                             <ul>
                                 <li>9:45am – Anzac Day Ceremony</li>
-                                <li>10:00am – Semi Finals</li>
+                                <li>10:00am – Semi Finals (Bo3)</li>
                                 <li>Plate Events Continue</li>
                             </ul>
                         </div>
@@ -87,8 +87,8 @@ function Program() {
                         <div className="timeline-content">
                             <h3>Sunday</h3>
                             <ul>
-                                <li>8:00am – Knockout Final</li>
-                                <li>Plate Final</li>
+                                <li>8:00am – Knockout Final (Bo5)</li>
+                                <li>Plate Final (Bo3)</li>
                                 <li>2:00pm – Prize Giving Ceremony</li>
                             </ul>
                         </div>
@@ -96,7 +96,54 @@ function Program() {
 
                 </div>
             </div>
+            <div className="prize-pool">
+                <h1 className="program-title">
+                    Prize Pool
+                </h1>
+
+                    <ul className="prize-list">
+                        <li>
+                            Winner           	$6,000
+
+
+                        </li>
+                        <li>
+                            Runner-Up     	$3,000
+
+                        </li>
+                        <li>
+                            3rd place         	$1,500
+
+                        </li>
+                        <li>
+                            4th place         	$1,000
+
+                        </li>
+                        <li>
+                            ‘Z’ winner       	$750
+
+                        </li>
+                        <li>
+                            ‘Y’ winner       	$500
+
+                        </li>
+                        <li>
+                            ‘W’ winner     	$300
+
+                        </li>
+                        <li>
+                            Plate winner  	$250
+
+                        </li>
+                        <li>
+                            Block Winners  $250
+                        </li>
+                    </ul>
+
+
+            </div>
         </section>
+
     );
 }
 

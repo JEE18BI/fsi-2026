@@ -3,7 +3,7 @@
 /* ========================= */
 
 .navbar {
-    position: sticky;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -92,5 +92,11 @@
 
     .hamburger {
         display: flex;
+    }
+    .logo{
+        font-size: 1rem;
+        padding-left: 0;
+        padding-right: 20px;
+        margin-left: 0;
     }
 }
