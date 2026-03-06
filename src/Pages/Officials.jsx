@@ -70,6 +70,10 @@ function Officials() {
                         <img src="/bruce.jpg" alt="Bruce Fry" />
                         <h3>Bruce Fry</h3>
                     </div>
+                    <div className="official-card">
+                        <img src="/Elliott.jpg" alt="Bruce Fry" />
+                        <h3>Robert Elliott</h3>
+                    </div>
                 </div>
 
             </div>

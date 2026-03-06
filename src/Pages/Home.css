@@ -184,7 +184,31 @@
     transform: scale(1.03);
 }
 
+/* PLAYER QUOTE */
 
+.player-quote {
+    max-width: 850px;
+    margin: 80px auto;
+    padding: 40px;
+    background: #f7f7f7;
+    border-left: 5px solid var(--gold);
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.quote-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.quote-author {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--green);
+}
 
 /* Overlay (subtle for readability) */
 .hero-clean::after {

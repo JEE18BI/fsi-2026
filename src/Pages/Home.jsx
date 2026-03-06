@@ -74,13 +74,13 @@ function Home() {
                 <div className="history-hero">
                     <img src={images[index]} alt="FSI History" />
                     <div className="hero-overlay">
-                        <h1>The Legacy of Fletcher Sharpe Invitational</h1>
+                        <h1>The History of Fletcher Sharpe Invitational</h1>
                     </div>
                 </div>
                 <section className="History">
                     <div className="history">
                         <h2>How did it start?</h2>
-                        <p> The Fletcher Sharpe Invitational was first played in 2024 as the brainchild of Georgina Carnegie, then President of Cooks River Croquet Club.  Robert Fletcher and Alison Sharpe, top Australian international golf (and association) croquet players, enthusiastically put their support and energy behind the initiative to bring the tournament to life. </p> <p> The tournament was designed to showcase young, top international golf croquet players – their skills, tactical brilliance and individual styles – and to encourage the sport among young Australians. It is also hoped that media coverage will widen public knowledge of the sport. </p>
+                        <p> The Fletcher Sharpe Invitational was first played in 2024 as the brainchild of Robert Fletcher and Georgina Carnegie, then President of Cooks River Croquet Club. Alison Sharpe, a top Australian international golf (and association) croquet player, enthusiastically added her support and energy to the initiative to bring the tournament to life. FSI is Australia’s richest croquet tournament.  </p> <p> The tournament was designed to showcase young, top international golf croquet players – their skills, tactical brilliance and individual styles – and to encourage the sport among young Australians. It is also hoped that media coverage will widen public knowledge of the sport. </p>
                     </div>
                 </section>
                 {/* 2024 */}
@@ -126,7 +126,22 @@ function Home() {
                         <img src="/2025-finalist2.jpg" alt="2025 Finalist 2" />
                     </div>
                 </section>
+                <section className="player-quote">
+                    <p className="quote-text">
+                        “Croquet is important for young people because it builds focus, strategic thinking,
+                        patience, and sportsmanship, while giving them a fun way to stay active and socially connected.
+                    </p>
 
+                    <p className="quote-text">
+                        Having a tournament like this creates excitement and opportunity — it inspires young players
+                        to improve, builds confidence through competition, and helps grow the sport of croquet by
+                        bringing the younger croquet community together and showcasing the next generation of talent.”
+                    </p>
+
+                    <span className="quote-author">
+        — Young Australian Player
+    </span>
+                </section>
             </div>
         </div>
     );
