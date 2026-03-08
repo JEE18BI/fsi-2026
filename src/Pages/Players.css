@@ -1,0 +1,96 @@
+:root {
+    --green: #00843D;
+    --gold: #FFCD00;
+}
+
+/* SECTION */
+
+.players-section {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.players-title {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    color: var(--green);
+    margin-bottom: 60px;
+}
+
+/* GRID */
+
+.players-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+/* CARD */
+
+.player-card {
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+}
+
+/* PHOTO */
+
+.player-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* NAME */
+
+.player-card h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+/* COUNTRY */
+
+.country {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* D-GRADE */
+
+.grade {
+    font-weight: 600;
+    color: var(--green);
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .players-title {
+        font-size: 2rem;
+    }
+
+    .players-grid {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 20px;
+    }
+
+    .player-card img {
+        width: 100px;
+        height: 100px;
+    }
+
+}

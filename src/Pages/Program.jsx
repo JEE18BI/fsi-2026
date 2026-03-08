@@ -9,7 +9,20 @@ function Program() {
                 <h1 className="program-title">Tournament Details </h1>
 
                 <div className="timeline">
+                    <div className="timeline-item">
+                        <div className="timeline-date">
+                            <span className="date-number">21</span>
+                            <span className="date-month">APR</span>
+                        </div>
 
+                        <div className="timeline-content">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>Registration</li>
+
+                            </ul>
+                        </div>
+                    </div>
                     {/* DAY 1 */}
                     <div className="timeline-item">
                         <div className="timeline-date">
