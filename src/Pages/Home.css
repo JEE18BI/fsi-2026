@@ -203,6 +203,103 @@
     color: #333;
 }
 
+/* SECTION */
+
+.details {
+    padding: 80px 20px;
+}
+
+.details-container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    align-items: flex-start;
+}
+
+/* CARD */
+
+.detail-box {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.detail-box.active {
+    border-left: 4px solid var(--gold);
+}
+
+/* HEADER */
+
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* TITLE */
+
+.detail-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail-icon {
+    color: var(--green);
+    font-size: 18px;
+}
+
+.detail-title h3 {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+}
+
+/* ARROW */
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+
+/* CONTENT */
+
+.detail-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+
+.detail-content.open {
+    max-height: 200px;
+    margin-top: 15px;
+}
+
+.detail-content p {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+/* MAP LINK */
+
+.map-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: var(--green);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.map-link:hover {
+    color: var(--gold);
+}
 .quote-author {
     display: block;
     margin-top: 10px;
@@ -347,6 +444,7 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    align-items: flex-start;
 }
 .detail-box {
     flex: 1;
@@ -664,4 +762,143 @@
     .winner-card:hover {
         transform: none;
     }
+}
+/* CONTENT INSIDE THE CARD */
+.detail-content {
+    max-height: 0;
+    overflow: hidden;
+    /* Made the animation slightly smoother */
+    transition: max-height 0.4s ease-in-out;
+}
+
+.detail-content.open {
+    /* Increased to 400px so your new long text fits perfectly */
+    max-height: 400px;
+    margin-top: 20px;
+    padding-top: 15px;
+    /* Adds a neat separator line between the title and text */
+    border-top: 1px solid rgba(0, 132, 61, 0.2);
+}
+
+.detail-content p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+/* New box for the travel instructions */
+.transport-info {
+    background-color: #f0f7f0; /* Very soft green box */
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    border-left: 3px solid var(--green);
+}
+
+.transport-info p {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.transport-info p:last-child {
+    margin-bottom: 0; /* Keeps the bottom of the box tidy */
+}
+
+/* MAP LINK */
+.map-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.map-link:hover {
+    background-color: var(--gold);
+    color: var(--green);
+}
+/* ========================= */
+/* CONTACT INFO INSIDE CARD  */
+/* ========================= */
+
+.contact-info {
+    padding-top: 10px;
+}
+
+/* Makes the name stand out */
+.contact-info .contact-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--green);
+    margin-bottom: 4px;
+}
+
+/* Softens the description text */
+.contact-info .contact-desc {
+    font-size: 0.95rem;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Turns the email into a nice clickable button */
+.email-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    background-color: #f0f7f0; /* Soft green background */
+    color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* The button changes color when you point at it */
+.email-link:hover {
+    background-color: var(--green);
+    color: var(--white);
+    transform: translateY(-2px); /* Makes the button hop up slightly */
+    box-shadow: 0 4px 10px rgba(0, 132, 61, 0.2);
+}
+/* ========================= */
+/* DATE INFO INSIDE CARD     */
+/* ========================= */
+
+.date-info {
+    padding-top: 10px;
+}
+
+/* Makes the main dates big and green */
+.date-info .main-date {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--green);
+    margin-bottom: 15px;
+}
+
+/* Puts the schedule in a neat soft box, matching your transport info */
+.schedule-box {
+    background-color: #f0f7f0; /* Soft green background */
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 3px solid var(--green);
+}
+
+.schedule-box p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Removes the bottom space from the last line so the box stays tidy */
+.schedule-box p:last-child {
+    margin-bottom: 0;
 }

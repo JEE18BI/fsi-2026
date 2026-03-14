@@ -9,9 +9,9 @@ function Sponsors() {
             {/* ================= SPONSORS ================= */}
 
             <h2 className="section-title">Platinum Sponsor</h2>
-            <div className="people-grid">
-                <div className="person-card">
-                    <img src="/alison.jpg" alt="Alison Sharpe" />
+            <div className="platinum-sponsor">
+                <div className="sponsor-card">
+                    <img src="/alison.png" alt="Alison Sharpe" />
                     <h3>Alison Sharpe</h3>
                 </div>
             </div>

@@ -74,6 +74,12 @@
 
 }
 
+.platinum-sponsor {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   color: var(--gold);;
+}
 /* ========================= */
 /* PERSON CARD */
 /* ========================= */
