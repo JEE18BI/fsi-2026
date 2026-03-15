@@ -14,7 +14,7 @@ function Footer() {
                 <div className="footer-nav">
                     <a href="/">Home</a>
                     <a href="/players">Players</a>
-                    <a href="/program">Program</a>
+                    <a href="/schedule">Program</a>
                     <a href="/officials">Officials</a>
                 </div>
 
