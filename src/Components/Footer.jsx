@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link } from "react-router-dom"; // Add this line!
 
 function Footer() {
     return (
@@ -12,17 +13,18 @@ function Footer() {
                 </div>
 
                 <div className="footer-nav">
-                    <a href="/">Home</a>
-                    <a href="/players">Players</a>
-                    <a href="/schedule">Program</a>
-                    <a href="/officials">Officials</a>
+                    {/* Use Link and 'to' instead of 'a' and 'href' */}
+                    <Link to="/">Home</Link>
+                    <Link to="/players">Players</Link>
+                    <Link to="/schedule">Program</Link>
+                    <Link to="/officials">Officials</Link>
                 </div>
 
                 <div className="footer-contact">
+                    {/* Email links stay as normal 'a' tags */}
                     <a href="mailto:admin@ucaevents.org">
                         admin@ucaevents.org
                     </a>
-
                 </div>
             </div>
 
@@ -33,6 +35,7 @@ function Footer() {
                 </p>
                 <p className="ft-right">
                     Website by{" "}
+                    {/* External links stay as normal 'a' tags */}
                     <a
                         href="mailto:janaelsaeed20@gmail.com"
                         target="_blank"
