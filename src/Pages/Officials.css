@@ -74,7 +74,8 @@
     margin-top: 15px;
     font-family: 'Cinzel', serif;
     font-size: 1.1rem;
-    color: #333;
+    color: var(--gold);
+
 }
 
 .official-card p {
