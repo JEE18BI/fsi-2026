@@ -19,10 +19,8 @@ const players = [
 ];
 
 function Players() {
+    const sortedPlayers = [...players].sort((a, b) => b.grade - a.grade);
 
-    const sortedPlayers = [...players].sort((a, b) =>
-        a.name.localeCompare(b.name)
-    );
 
     return (
         <section className="players-section">
