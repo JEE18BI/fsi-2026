@@ -6,6 +6,7 @@ import Program from "./Pages/Program";
 import Sponsors from "./Pages/Sponsors.jsx"
 import Officials from "./Pages/Officials.jsx"
 import Players from "./Pages/Players.jsx"
+import Footer from "./Components/Footer.jsx"
 function App() {
     return (
         <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
 <Route path="/players" element={<Players/>}></Route>
 
             </Routes>
+            <Footer />
         </BrowserRouter>
     );
 }

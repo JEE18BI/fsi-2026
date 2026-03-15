@@ -112,7 +112,7 @@ function Sponsors() {
             <div className="platinum-sponsor">
                 <div className="person-card highlight-you">
 
-                    <h3>Jana El Saeed</h3>
+                    <h3>Jana Mohamed</h3>
                 </div>
             </div>
 

@@ -127,8 +127,8 @@ function Home() {
                                 <p className="contact-name">Greg Fletcher</p>
                                 <p className="contact-desc">For tournament enquiries and registration.</p>
 
-                                <a href="mailto:gr3gfletcher@gmail.com" className="email-link">
-                                    ✉️ gr3gfletcher@gmail.com
+                                <a href="mailto:admin@ucaevents.org" className="email-link">
+                                    ✉️ admin@ucaevents.org
                                 </a>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ function Home() {
                     <div className="finalists-images">
 
                         <div className="player-photo">
-                            <img src="/" alt="Malcolm Fletcher" />
+                            <img src="/malcolm.jpg" alt="Malcolm Fletcher" />
                             <p>Malcolm Fletcher</p>
                         </div>
 

@@ -5,17 +5,17 @@ const players = [
     { name: "Malcolm Fletcher", country: "Australia", grade: 2485, img: "/malcolm.jpg" },
     { name: "Levi Franks", country: "New Zealand", grade: 2470, img: "/levi.png" },
     { name: "Greg Fletcher", country: "Australia", grade: 2447, img: "/Greg.JPG" },
-    { name: "Josh Winter", country: "New Zealand", grade: 2283, img: "/players/josh.jpg" },
-    { name: "Felix Gelman-White", country: "Australia", grade: 2245, img: "/players/felix.jpg" },
-    { name: "Paul Kaiser", country: "New Zealand", grade: 2215, img: "/players/paul.jpg" },
-    { name: "Nathan Bullen", country: "New Zealand", grade: 2104, img: "/players/nathan.jpg" },
-    { name: "Jason Hodgett", country: "New Zealand", grade: 2096, img: "/players/jason.jpg" },
+    { name: "Josh Winter", country: "New Zealand", grade: 2283, img: "/missing.png" },
+    { name: "Felix Gelman-White", country: "Australia", grade: 2245, img: "/missing.png" },
+    { name: "Paul Kaiser", country: "New Zealand", grade: 2215, img: "/missing.png" },
+    { name: "Nathan Bullen", country: "New Zealand", grade: 2104, img: "/missing.png" },
+    { name: "Jason Hodgett", country: "New Zealand", grade: 2096, img: "/missing.png" },
     { name: "Mikey Lauer", country: "New Zealand", grade: 2065, img: "/mikey.jpg" },
     { name: "Luke Francis", country: "New Zealand", grade: 2032, img: "/luke.jpg" },
-    { name: "James Duggan", country: "New Zealand", grade: 2006, img: "/players/james-duggan.jpg" },
+    { name: "James Duggan", country: "New Zealand", grade: 2006, img: "/missing.png" },
     { name: "Mattie Clarkeson", country: "New Zealand", grade: 1998, img: "/mattie.png" },
-    { name: "Ben Bowen", country: "Australia", grade: 1650, img: "/players/ben.jpg" },
-    { name: "James Mason", country: "Australia", grade: 1520, img: "/players/james-mason.jpg" },{ name: "Addison Matthews", country: "Australia", grade: 2240, img: "/players/james-mason.jpg" }
+    { name: "Ben Bowen", country: "Australia", grade: 1650, img: "/missing.png" },
+    { name: "James Mason", country: "Australia", grade: 1520, img: "/missing.png" },{ name: "Addison Matthews", country: "Australia", grade: 2240, img: "/missing.png" }
 ];
 
 function Players() {

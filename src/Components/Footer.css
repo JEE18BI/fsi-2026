@@ -1,0 +1,89 @@
+.footer {
+    background: var(--green);
+    color: #e2eae2;
+    padding: 40px 30px 20px; /* Keeps it short and compact */
+    font-family: 'Inter', sans-serif;
+}
+
+/* TOP PART: Side-by-side on big screens */
+.footer-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px; /* Space before the line */
+}
+
+/* BRANDING */
+.footer-brand h3 {
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    font-size: 1.3rem;
+    margin: 0 0 5px 0;
+}
+.footer-brand p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* NAVIGATION LINKS IN A ROW */
+.footer-nav {
+    display: flex;
+    gap: 25px; /* Space between the links */
+}
+.footer-nav a, .footer-contact a {
+    color: #e2eae2;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+.footer-nav a:hover, .footer-contact a:hover {
+    color: var(--gold);
+}
+
+/* BOTTOM PART: The left/right split you liked */
+.footer-bottom {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Soft dividing line */
+    padding-top: 20px;
+}
+
+.ft-left, .ft-right {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.ft-right a {
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.ft-right a:hover {
+    color: #ffffff;
+}
+
+/* MOBILE FIX: Stack everything neatly on phones */
+@media (max-width: 800px) {
+    .footer-main {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .footer-nav{
+        gap:15px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+}
