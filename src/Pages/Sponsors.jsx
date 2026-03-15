@@ -51,7 +51,7 @@ function Sponsors() {
             <h3 className="role-title">Host Club</h3>
             <div className="platinum-sponsor">
                 <div className="person-card">
-
+                    <img src="/club.png" alt="club" />
                     <h3>Cooks River Croquet Club</h3>
                 </div>
             </div>
@@ -103,7 +103,7 @@ function Sponsors() {
             </div>
 
             <h3 className="role-title">Media</h3>
-            <div className="people-grid">
+            <div className="platinum-sponsor">
                 <div className="person-card"><h3>Pauline Markwell</h3></div>
 
             </div>
