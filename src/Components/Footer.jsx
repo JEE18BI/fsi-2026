@@ -9,7 +9,7 @@ function Footer() {
             <div className="footer-main">
                 <div className="footer-brand">
                     <h3>Fletcher Sharpe Invitational</h3>
-                    <p>Sydney, Australia</p>
+                    <p>Sydney, Australia </p>
                 </div>
 
                 <div className="footer-nav">
