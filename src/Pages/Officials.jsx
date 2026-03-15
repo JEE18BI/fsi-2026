@@ -11,13 +11,13 @@ function Officials() {
                 <h2 className="role-heading">Tournament Managers</h2>
                 <div className="officials-grid">
                     <div className="official-card">
-                        <img src="/derek.jpg" alt="Derek Bull" />
+                        <img src="/derek.jpeg" alt="Derek Bull" />
                         <h3>Derek Bull</h3>
                         <p>Wednesday – Friday</p>
                     </div>
 
                     <div className="official-card">
-                        <img src="/peter.jpg" alt="Peter Landrebe" />
+                        <img src="/peter.png" alt="Peter Landrebe" />
                         <h3>Peter Landrebe</h3>
                         <p>Saturday – Sunday</p>
                     </div>
@@ -32,8 +32,8 @@ function Officials() {
                         <p>Chair</p>
                     </div>
 
-                    <div className="official-card"><img src="/greg.jpg" alt="Greg Fletcher" /><h3>Greg Fletcher</h3></div>
-                    <div className="official-card"><img src="/alison.jpg" alt="Alison Sharpe" /><h3>Alison Sharpe</h3></div>
+                    <div className="official-card"><img src="/Greg.JPG" alt="Greg Fletcher" /><h3>Greg Fletcher</h3></div>
+                    <div className="official-card"><img src="/Alison.jpg" alt="Alison Sharpe" /><h3>Alison Sharpe</h3></div>
                     <div className="official-card"><img src="/stephen.jpg" alt="Stephen Burns" /><h3>Stephen Burns</h3></div>
                     <div className="official-card"><img src="/jill.jpg" alt="Jill Sullivan" /><h3>Jill Sullivan</h3></div>
                     <div className="official-card"><img src="/ianf.jpg" alt="Ian Foster" /><h3>Ian Foster</h3></div>
@@ -53,7 +53,7 @@ function Officials() {
                 <h2 className="role-heading">Player Liaison</h2>
                 <div className="officials-grid">
                     <div className="official-card">
-                        <img src="/greg.jpg" alt="Greg Fletcher" />
+                        <img src="/Greg.JPG" alt="Greg Fletcher" />
                         <h3>Greg Fletcher</h3>
                     </div>
                 </div>

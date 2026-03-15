@@ -10,7 +10,7 @@ function Sponsors() {
 
             <h2 className="section-title">Platinum Sponsor</h2>
             <div className="platinum-sponsor">
-                <div className="sponsor-card">
+                <div className="person-card">
                     <img src="/Alison.jpg" alt="Alison Sharpe" />
                     <h3>Alison Sharpe</h3>
                 </div>
@@ -45,7 +45,7 @@ function Sponsors() {
 
             <h2 className="section-title">Raffle Sponsors</h2>
             <div className="people-grid">
-                <div className="person-card"><h3>Faros Seafood</h3></div>
+                <div className="person-card"><img src="/faros.png" alt="Hawke's Brewing" /><h3>Faros Seafood</h3></div>
                 <div className="person-card"><img src="/hawkes.png" alt="Hawke's Brewing" /><h3>Hawke’s Brewing (TBC)</h3></div>
                 <div className="person-card"><img src="/georgina.png" alt="Georgina Carnegie" /><h3>Georgina Carnegie</h3></div>
             </div>
@@ -72,13 +72,13 @@ function Sponsors() {
 
             <h3 className="role-title">Tournament Managers</h3>
             <div className="platinum-sponsor">
-                <div className="person-card"><h3>Derek Bull</h3></div>
+                <div className="person-card"><img src="/derek.jpeg" alt="Peter Landrebe" /><h3>Derek Bull</h3></div>
                 <div className="person-card"><img src="/peter.png" alt="Peter Landrebe" /><h3>Peter Landrebe</h3></div>
             </div>
 
             <h3 className="role-title">Tournament Referee</h3>
             <div className="platinum-sponsor">
-                <div className="person-card"><h3>Lynda Toms</h3></div>
+                <div className="person-card"><img src="/lynda.png" alt="Peter Landrebe" /><h3>Lynda Toms</h3></div>
 
             </div>
 
