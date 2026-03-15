@@ -10,10 +10,10 @@ const players = [
     { name: "Paul Kaiser", country: "New Zealand", grade: 2215, img: "/players/paul.jpg" },
     { name: "Nathan Bullen", country: "New Zealand", grade: 2104, img: "/players/nathan.jpg" },
     { name: "Jason Hodgett", country: "New Zealand", grade: 2096, img: "/players/jason.jpg" },
-    { name: "Mikey Lauer", country: "New Zealand", grade: 2065, img: "/players/mikey.jpg" },
-    { name: "Luke Francis", country: "New Zealand", grade: 2032, img: "/players/luke.jpg" },
+    { name: "Mikey Lauer", country: "New Zealand", grade: 2065, img: "/mikey.jpg" },
+    { name: "Luke Francis", country: "New Zealand", grade: 2032, img: "/luke.jpg" },
     { name: "James Duggan", country: "New Zealand", grade: 2006, img: "/players/james-duggan.jpg" },
-    { name: "Mattie Clarkeson", country: "New Zealand", grade: 1998, img: "/players/mattie.jpg" },
+    { name: "Mattie Clarkeson", country: "New Zealand", grade: 1998, img: "/mattie.png" },
     { name: "Ben Bowen", country: "Australia", grade: 1650, img: "/players/ben.jpg" },
     { name: "James Mason", country: "Australia", grade: 1520, img: "/players/james-mason.jpg" },{ name: "Addison Matthews", country: "Australia", grade: 2240, img: "/players/james-mason.jpg" }
 ];
@@ -25,7 +25,7 @@ function Players() {
     return (
         <section className="players-section">
 
-            <h1 className="players-title">Players</h1>
+            <h1 className="players-title">Meet The Players</h1>
 
             <div className="players-grid">
 
