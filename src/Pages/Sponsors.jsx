@@ -22,10 +22,7 @@ function Sponsors() {
                     <img src="/georgina.png" alt="Georgina Carnegie" />
                     <h3>Georgina Carnegie</h3>
                 </div>
-                <div className="person-card">
 
-                    <h3>ABC Refinery (TBC)</h3>
-                </div>
             </div>
 
             <h2 className="section-title">Lawn Sponsors</h2>
@@ -36,27 +33,16 @@ function Sponsors() {
             </div>
 
             <h2 className="section-title">Live Streaming</h2>
-            <div className="platinum-sponsor">
-                <div className="person-card">
 
-                    <h3>Your Travel Expert (TBC)</h3>
-                </div>
-            </div>
 
             <h2 className="section-title">Raffle Sponsors</h2>
             <div className="people-grid">
-                <div className="person-card"><img src="/faros.png" alt="Hawke's Brewing" /><h3>Faros Seafood</h3></div>
-                <div className="person-card"><img src="/hawkes.png" alt="Hawke's Brewing" /><h3>Hawke’s Brewing (TBC)</h3></div>
-                <div className="person-card"><img src="/georgina.png" alt="Georgina Carnegie" /><h3>Georgina Carnegie</h3></div>
+                <div className="person-card"><img src="/faros.jpg" alt="Hawke's Brewing" /><h3>Faros Seafood</h3></div>
+                <div className="person-card"><img src="/hawkes.png" alt="Hawke's Brewing" /><h3>Hawke’s Brewing </h3></div>
+
             </div>
 
-            <h2 className="section-title">Equipment</h2>
-            <div className="platinum-sponsor">
-                <div className="person-card">
 
-                    <h3>Invictus Balls</h3>
-                </div>
-            </div>
 
             {/* ================= OFFICIAL THANKS ================= */}
 
@@ -119,8 +105,7 @@ function Sponsors() {
             <h3 className="role-title">Media</h3>
             <div className="people-grid">
                 <div className="person-card"><h3>Pauline Markwell</h3></div>
-                <div className="person-card"><h3>Peter Fitzsimmons</h3></div>
-                <div className="person-card"><h3>Steve Robilliard</h3></div>
+
             </div>
 
             <h3 className="role-title highlight-role">Website</h3>
@@ -131,13 +116,7 @@ function Sponsors() {
                 </div>
             </div>
 
-            <h3 className="role-title">Billet Hosts</h3>
-            <div className="people-grid">
-                <div className="person-card"><h3>Georgina Carnegie</h3></div>
-                <div className="person-card"><h3>Pauline Markwell</h3></div>
-                <div className="person-card"><h3>Alison Sharpe</h3></div>
-                <div className="platinum-sponsor"><h3>Freddy Sharpe</h3></div>
-            </div>
+
 
         </section>
     );

@@ -134,14 +134,21 @@ function Home() {
                         </div>
                         <div className={`detail-content ${openBoxes[2] ? "open" : ""}`}>
                             <div className="contact-info">
-                                <p className="contact-name">Pauline Markwell </p>
+
+                                <p className="contact-name">Pauline Markwell</p>
                                 <p className="contact-desc">For media enquiries.</p>
 
                                 <a href="mailto:markwell.pauline@gmail.com" className="email-link">
-                                    ✉️ gr3gfletcher@gmail.com
+                                    ✉️ markwell.pauline@gmail.com
                                 </a>
+
+                                <a href="tel:+61481159189" className="phone-link">
+                                    📞 0481 159 189
+                                </a>
+
                             </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -193,12 +200,29 @@ function Home() {
                     </p>
 
                     <div className="finalists-images">
-                        <img src="/robert.jpeg" alt="2024 Finalist"/>
-                        <img src="/Aston.png" alt="2024 Finalist"/>
-                        <img src="/logan.png" alt="2024 Semi-Finalist"/>
-                        <img src="/edward.png" alt="2024 Semi-Finalist"/>
+
+                        <div className="player-photo">
+                            <img src="/robert.jpeg" alt="Robert Fletcher" />
+                            <p>Robert Fletcher</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/Aston.png" alt="Aston Wade" />
+                            <p>Aston Wade</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/logan.png" alt="Logan McCorkindale" />
+                            <p>Logan McCorkindale</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/edward.png" alt="Edward Wilson" />
+                            <p>Edward Wilson</p>
+                        </div>
 
                     </div>
+
 
                 </section>
 
@@ -219,13 +243,32 @@ function Home() {
                         <strong> Greg Fletcher</strong> in the final.
                     </p>
 
-                    <div className="finalists-images">
-                        <img src="/2025-finalist2.jpg" alt="Malcolm Fletcher"/>
-                        <img src="/Greg.JPG" alt="2025 Finalist"/>
 
-                        <img src="/levi.png" alt="2025 Semi-Finalist"/>
-                        <img src="/edward.png" alt="2025 Semi-Finalist"/>
+
+                    <div className="finalists-images">
+
+                        <div className="player-photo">
+                            <img src="/" alt="Malcolm Fletcher" />
+                            <p>Malcolm Fletcher</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/Greg.JPG" alt="Greg" />
+                            <p>Greg Fletcher</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/levi.png" alt="LEVI" />
+                            <p>Levi Franks</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/edward.png" alt="Edward Wilson" />
+                            <p>Edward Wilson</p>
+                        </div>
+
                     </div>
+
 
                 </section>
 

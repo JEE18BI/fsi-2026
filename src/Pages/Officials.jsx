@@ -9,8 +9,8 @@ function Officials() {
 
                 {/* ================= MANAGERS ================= */}
                 <h2 className="role-heading">Tournament Managers</h2>
-                <div className="officials-grid">
-                    <div className="official-card">
+                <div className="platinum-sponsor">
+                    <div className="person-card">
                         <img src="/derek.jpeg" alt="Derek Bull" />
                         <h3>Derek Bull</h3>
                         <p>Wednesday – Friday</p>
@@ -37,44 +37,28 @@ function Officials() {
                     <div className="official-card"><img src="/stephen.jpg" alt="Stephen Burns" /><h3>Stephen Burns</h3></div>
                     <div className="official-card"><img src="/jill.jpg" alt="Jill Sullivan" /><h3>Jill Sullivan</h3></div>
                     <div className="official-card"><img src="/ianf.jpg" alt="Ian Foster" /><h3>Ian Foster</h3></div>
-                    <div className="official-card"><img src="/pauline.jpg" alt="Pauline Markwell" /><h3>Pauline Markwell</h3></div>
+                    <div className="official-card"><img src="/pauline.png" alt="Pauline Markwell" /><h3>Pauline Markwell</h3></div>
                 </div>
 
                 {/* ================= REFEREE ================= */}
                 <h2 className="role-heading">Tournament Referee</h2>
-                <div className="officials-grid">
-                    <div className="official-card">
-                        <img src="/lynda.jpg" alt="Lynda Toms" />
+                <div className="platinum-sponsor">
+                    <div className="person-card">
+                        <img src="/lynda.png" alt="Lynda Toms" />
                         <h3>Lynda Toms</h3>
                     </div>
                 </div>
 
                 {/* ================= PLAYER LIAISON ================= */}
                 <h2 className="role-heading">Player Liaison</h2>
-                <div className="officials-grid">
-                    <div className="official-card">
+                <div className="platinum-sponsor">
+                    <div className="person-card">
                         <img src="/Greg.JPG" alt="Greg Fletcher" />
                         <h3>Greg Fletcher</h3>
                     </div>
                 </div>
 
-                {/* ================= GROUND TEAM ================= */}
-                <h2 className="role-heading">Ground Team</h2>
-                <div className="officials-grid">
-                    <div className="official-card">
-                        <img src="/paul.jpg" alt="Paul Skorvac" />
-                        <h3>Paul Skorvac</h3>
-                    </div>
 
-                    <div className="official-card">
-                        <img src="/bruce.jpg" alt="Bruce Fry" />
-                        <h3>Bruce Fry</h3>
-                    </div>
-                    <div className="official-card">
-                        <img src="/Elliott.jpg" alt="Bruce Fry" />
-                        <h3>Robert Elliott</h3>
-                    </div>
-                </div>
 
             </div>
         </section>

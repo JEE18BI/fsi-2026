@@ -15,7 +15,7 @@ const players = [
     { name: "James Duggan", country: "New Zealand", grade: 2006, img: "/players/james-duggan.jpg" },
     { name: "Mattie Clarkeson", country: "New Zealand", grade: 1998, img: "/players/mattie.jpg" },
     { name: "Ben Bowen", country: "Australia", grade: 1650, img: "/players/ben.jpg" },
-    { name: "James Mason", country: "Australia", grade: 1520, img: "/players/james-mason.jpg" }
+    { name: "James Mason", country: "Australia", grade: 1520, img: "/players/james-mason.jpg" },{ name: "Addison Matthews", country: "Australia", grade: 2240, img: "/players/james-mason.jpg" }
 ];
 
 function Players() {
