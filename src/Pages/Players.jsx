@@ -1,10 +1,10 @@
 import "./Players.css";
 
 const players = [
-    { name: "Edward Wilson", country: "Australia", grade: 2534, img: "/players/edward.jpg" },
-    { name: "Malcolm Fletcher", country: "Australia", grade: 2485, img: "/players/malcolm.jpg" },
-    { name: "Levi Franks", country: "New Zealand", grade: 2470, img: "/players/levi.jpg" },
-    { name: "Greg Fletcher", country: "Australia", grade: 2447, img: "/players/greg.jpg" },
+    { name: "Edward Wilson", country: "Australia", grade: 2534, img: "/edward.png" },
+    { name: "Malcolm Fletcher", country: "Australia", grade: 2485, img: "/malcolm.jpg" },
+    { name: "Levi Franks", country: "New Zealand", grade: 2470, img: "/levi.png" },
+    { name: "Greg Fletcher", country: "Australia", grade: 2447, img: "/Greg.JPG" },
     { name: "Josh Winter", country: "New Zealand", grade: 2283, img: "/players/josh.jpg" },
     { name: "Felix Gelman-White", country: "Australia", grade: 2245, img: "/players/felix.jpg" },
     { name: "Paul Kaiser", country: "New Zealand", grade: 2215, img: "/players/paul.jpg" },

@@ -27,7 +27,7 @@ function Officials() {
                 <h2 className="role-heading">Tournament Committee</h2>
                 <div className="officials-grid">
                     <div className="official-card">
-                        <img src="/georgina.jpg" alt="Georgina Carnegie" />
+                        <img src="/georgina.png" alt="Georgina Carnegie" />
                         <h3>Georgina Carnegie</h3>
                         <p>Chair</p>
                     </div>

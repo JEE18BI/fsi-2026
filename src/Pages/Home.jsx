@@ -115,7 +115,7 @@ function Home() {
 
                             <div className="detail-title">
                                 <FaEnvelope className="detail-icon"/>
-                                <h3>Contact</h3>
+                                <h3>Contacts</h3>
                             </div>
 
                             <FaChevronDown className={`arrow ${openBoxes[2] ? "rotate" : ""}`} />
@@ -132,6 +132,16 @@ function Home() {
                                 </a>
                             </div>
                         </div>
+                        <div className={`detail-content ${openBoxes[2] ? "open" : ""}`}>
+                            <div className="contact-info">
+                                <p className="contact-name">Pauline Markwell </p>
+                                <p className="contact-desc">For media enquiries.</p>
+
+                                <a href="mailto:markwell.pauline@gmail.com" className="email-link">
+                                    ✉️ gr3gfletcher@gmail.com
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -144,7 +154,7 @@ function Home() {
                 <div className="history-hero">
                     <img src={images[index]} alt="FSI History"/>
                     <div className="hero-overlay">
-                        <h1>The History of Fletcher Sharpe Invitational</h1>
+                        <h1> History of Fletcher Sharpe Invitational</h1>
                     </div>
                 </div>
 
@@ -185,8 +195,8 @@ function Home() {
                     <div className="finalists-images">
                         <img src="/robert.jpeg" alt="2024 Finalist"/>
                         <img src="/Aston.png" alt="2024 Finalist"/>
-                        <img src="/Logan.png" alt="2024 Semi-Finalist"/>
-                        <img src="/Edward.png" alt="2024 Semi-Finalist"/>
+                        <img src="/logan.png" alt="2024 Semi-Finalist"/>
+                        <img src="/edward.png" alt="2024 Semi-Finalist"/>
 
                     </div>
 
@@ -210,10 +220,11 @@ function Home() {
                     </p>
 
                     <div className="finalists-images">
+                        <img src="/2025-finalist2.jpg" alt="Malcolm Fletcher"/>
                         <img src="/Greg.JPG" alt="2025 Finalist"/>
-                        <img src="/2025-finalist2.jpg" alt="2025 Finalist"/>
-                        <img src="/Levi.JPG" alt="2025 Semi-Finalist"/>
-                        <img src="/Edward.jpg" alt="2025 Semi-Finalist"/>
+
+                        <img src="/levi.png" alt="2025 Semi-Finalist"/>
+                        <img src="/edward.png" alt="2025 Semi-Finalist"/>
                     </div>
 
                 </section>
@@ -236,6 +247,7 @@ function Home() {
 
                     <span className="quote-author">
             — Felix Gelman-White
+                        - young Australian croquet player
           </span>
 
                 </section>
