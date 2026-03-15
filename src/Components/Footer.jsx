@@ -12,10 +12,10 @@ function Footer() {
                 </div>
 
                 <div className="footer-nav">
-                    <a href="#home">Home</a>
-                    <a href="#players">Players</a>
-                    <a href="#program">Program</a>
-                    <a href="#officials">Officials</a>
+                    <a href="/">Home</a>
+                    <a href="/players">Players</a>
+                    <a href="/program">Program</a>
+                    <a href="/officials">Officials</a>
                 </div>
 
                 <div className="footer-contact">

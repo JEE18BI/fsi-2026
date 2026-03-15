@@ -35,7 +35,7 @@ function Officials() {
                     <div className="official-card"><img src="/Greg.JPG" alt="Greg Fletcher" /><h3>Greg Fletcher</h3></div>
                     <div className="official-card"><img src="/Alison.jpg" alt="Alison Sharpe" /><h3>Alison Sharpe</h3></div>
                     <div className="official-card"><img src="/stephen.jpg" alt="Stephen Burns" /><h3>Stephen Burns</h3></div>
-                    <div className="official-card"><img src="/jill.jpg" alt="Jill Sullivan" /><h3>Jill Sullivan</h3></div>
+                    <div className="official-card"><img src="/jill.jpeg" alt="Jill Sullivan" /><h3>Jill Sullivan</h3></div>
                     <div className="official-card"><img src="/ianf.jpg" alt="Ian Foster" /><h3>Ian Foster</h3></div>
                     <div className="official-card"><img src="/pauline.png" alt="Pauline Markwell" /><h3>Pauline Markwell</h3></div>
                 </div>

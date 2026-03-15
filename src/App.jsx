@@ -7,11 +7,14 @@ import Sponsors from "./Pages/Sponsors.jsx"
 import Officials from "./Pages/Officials.jsx"
 import Players from "./Pages/Players.jsx"
 import Footer from "./Components/Footer.jsx"
+import ScrollToTop from "./Components/ScrollToTop.jsx";
 function App() {
     return (
         <BrowserRouter>
             <Navbar />
+            <ScrollToTop />
             <Routes>
+
                 <Route path="/" element={<HomePage />} />
                 <Route path="/schedule" element={<Program />} />
                 <Route path="/thanks" element ={<Sponsors />} />
