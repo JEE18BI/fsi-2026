@@ -36,7 +36,7 @@ function Sponsors() {
 
 
             <h2 className="section-title">Raffle Sponsors</h2>
-            <div className="people-grid">
+            <div className="platinum-sponsor">
                 <div className="person-card"><img src="/faros.jpg" alt="Hawke's Brewing" /><h3>Faros Seafood</h3></div>
                 <div className="person-card"><img src="/hawkes.png" alt="Hawke's Brewing" /><h3>Hawke’s Brewing </h3></div>
 
