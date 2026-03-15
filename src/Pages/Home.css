@@ -949,3 +949,21 @@
     font-size: 0.95rem;
     color: var(--green);
 }
+/* ========================= */
+/* FIX FINALISTS PHOTOS ON MOBILE */
+/* ========================= */
+
+@media (max-width: 768px) {
+    .finalists-images {
+        /* This changes it from 4 columns to 1 column on small screens */
+        grid-template-columns: 1fr;
+
+        /* Optional: Makes the gap between photos a bit smaller on phones */
+        gap: 20px;
+    }
+
+    /* Optional: Makes the photos slightly taller on phones so they look nice */
+    .player-photo img {
+        height: 280px;
+    }
+}
