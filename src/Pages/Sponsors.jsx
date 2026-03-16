@@ -16,7 +16,7 @@ function Sponsors() {
                 </div>
             </div>
 
-            <h2 className="section-title">Gold Sponsors</h2>
+            <h2 className="section-title">Gold Sponsor</h2>
             <div className="platinum-sponsor">
                 <div className="person-card">
                     <img src="/georgina.png" alt="Georgina Carnegie" />
@@ -68,7 +68,7 @@ function Sponsors() {
 
             </div>
 
-            <h3 className="role-title">Videographers</h3>
+            <h3 className="role-title">Videographer</h3>
             <div className="platinum-sponsor">
                 <div className="person-card"><img src="/samuel.jpg" alt="Samuel Gumbrell" /><h3>Samuel Gumbrell</h3></div>
             </div>
