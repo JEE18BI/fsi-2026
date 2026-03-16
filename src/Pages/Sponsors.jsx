@@ -81,7 +81,7 @@ function Sponsors() {
 
             <h3 className="role-title">Ground Team</h3>
             <div className="people-grid">
-                <div className="person-card"><h3>Paul Skorvac</h3></div>
+                <div className="person-card"><h3>Paul Skvorac</h3></div>
                 <div className="person-card"><h3>Terry Abbott</h3></div>
                 <div className="person-card"><h3>Ian Sinclair</h3></div>
             </div>
