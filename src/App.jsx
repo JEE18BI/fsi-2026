@@ -8,6 +8,7 @@ import Officials from "./Pages/Officials.jsx"
 import Players from "./Pages/Players.jsx"
 import Footer from "./Components/Footer.jsx"
 import ScrollToTop from "./Components/ScrollToTop.jsx";
+import Blocks from "./Pages/Blocks.jsx"
 function App() {
     return (
         <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/schedule" element={<Program />} />
                 <Route path="/thanks" element ={<Sponsors />} />
                 <Route path="/officials" element ={<Officials />} />
+                <Route path="/blocks" element ={<Blocks />} />
 <Route path="/players" element={<Players/>}></Route>
 
             </Routes>
