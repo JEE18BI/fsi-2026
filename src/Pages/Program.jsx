@@ -85,7 +85,7 @@ function Program() {
                             <ul>
                                 <li>9:00am - Court set up and warm up</li>
                                 <li>9:45am – Anzac Day Ceremony</li>
-                                <li>10:00am – Semi Finals (Bo3)</li>
+                                <li>10:00am – Knockout Semi Finals (Bo5)</li>
                                 <li>Plate Events Continue</li>
                             </ul>
                         </div>
