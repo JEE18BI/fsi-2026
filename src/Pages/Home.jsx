@@ -153,6 +153,31 @@ function Home() {
                 </div>
 
             </section>
+            {/* CRCC CONNECTION */}
+            <section className="crcc-link-section">
+                <div className="crcc-container">
+
+                    <h2 className="crcc-title">Hosted by</h2>
+
+                    <a
+                        href="https://cooksrivercroquetclub.com/home/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="crcc-card"
+                    >
+                        <img src="/img_6.png" alt="Cooks River Croquet Club" />
+
+                        <div className="crcc-text">
+                            <h3>Cooks River Croquet Club</h3>
+                            <p className="p-text">
+                                Click to visit the official website of the host club to learn more
+                                about the venue, community, and events.
+                            </p>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
 
 
             {/* HISTORY HERO */}

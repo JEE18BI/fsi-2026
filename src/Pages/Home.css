@@ -967,3 +967,119 @@
         height: 280px;
     }
 }
+/* ========================= */
+/* CRCC CONNECTION SECTION   */
+/* ========================= */
+
+.crcc-link-section {
+    padding: 100px 20px;
+    background: var(--lightgreen); /* matches your detail cards vibe */
+    display: flex;
+    justify-content: center;
+}
+
+.crcc-container {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Title matches your section titles */
+.crcc-title {
+    font-family: 'Cinzel', serif;
+    font-size: 2.2rem;
+    color: var(--green);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Gold underline (consistent with your headings) */
+.crcc-title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: var(--gold);
+    margin: 15px auto 0;
+}
+
+/* CARD STYLE — matches detail-box feel */
+.crcc-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    padding: 30px;
+    border-radius: 18px;
+
+    border: 1px solid rgba(0, 132, 61, 0.15);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+
+    text-decoration: none;
+    color: inherit;
+
+    transition: all 0.35s ease;
+}
+
+/* Hover matches your other hover behavior */
+.crcc-card:hover {
+    transform: translateY(-6px);
+    border: 1px solid rgba(255, 205, 0, 0.7);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.1);
+}
+
+/* LOGO */
+.crcc-card img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+/* TEXT */
+.crcc-text {
+    text-align: left;
+}
+
+.crcc-text h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.6rem;
+    color: var(--green);
+    margin-bottom: 8px;
+}
+
+.crcc-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ========================= */
+/* MOBILE RESPONSIVE         */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .crcc-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .crcc-text {
+        text-align: center;
+
+    }
+    .crcc-card img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .crcc-title {
+        font-size: 1.8rem;
+    }
+}
