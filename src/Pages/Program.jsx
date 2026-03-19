@@ -67,7 +67,7 @@ function Program() {
                             <h3>Friday</h3>
                             <ul>
                                 <li>1st Round Knockout (Bo3)</li>
-                                <li>Quarter Finals (Bo5)</li>
+                                <li>Quarter Finals of the X and Y (Bo5)</li>
                                 <li>Plate Events Commence (Bo3)</li>
                             </ul>
                         </div>
@@ -85,7 +85,7 @@ function Program() {
                             <ul>
                                 <li>9:00am - Court set up and warm up</li>
                                 <li>9:45am – Anzac Day Ceremony</li>
-                                <li>10:00am – Knockout Semi Finals (Bo5)</li>
+                                <li>10:00am – Knockout Semi Finals (Bo5) and other knockout matches</li>
                                 <li>Plate Events Continue</li>
                             </ul>
                         </div>
