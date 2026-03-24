@@ -210,7 +210,7 @@
 }
 
 .details-container {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -439,7 +439,7 @@
 }
 
 .details-container {
-    max-width: 1100px;
+    max-width: 1600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -469,9 +469,9 @@
 /* Section Titles */
 .detail-box h3 {
     font-family: 'Cinzel', serif;
-    font-size:2rem;
+    font-size:1.5rem;
     color: var(--green);
-    margin-bottom: 12px;
+   margin-top: 15px;
     letter-spacing: 1px;
     position: relative;
 }
@@ -676,7 +676,7 @@
 
     .detail-box {
         width: 100%;
-        max-width: 500px;
+        max-width: 400px;
     }
 }
 
@@ -773,7 +773,7 @@
 
 .detail-content.open {
     /* Increased to 400px so your new long text fits perfectly */
-    max-height: 400px;
+    max-height: 700px;
     margin-top: 20px;
     padding-top: 15px;
     /* Adds a neat separator line between the title and text */
@@ -966,6 +966,9 @@
     .player-photo img {
         height: 280px;
     }
+    .crcc-link-section{
+        border-radius: 0;
+    }
 }
 /* ========================= */
 /* CRCC CONNECTION SECTION   */
@@ -973,13 +976,20 @@
 
 .crcc-link-section {
     padding: 100px 20px;
-    background: var(--lightgreen); /* matches your detail cards vibe */
+    background: var(--lightgreen);
+
+    max-width: 1400px;
+    /* 🔥 THIS is what centers the section */
+
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 0 auto 50px;
 }
 
 .crcc-container {
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     text-align: center;
 }
@@ -989,7 +999,7 @@
     font-family: 'Cinzel', serif;
     font-size: 2.2rem;
     color: var(--green);
-    margin-bottom: 40px;
+
     position: relative;
 }
 
@@ -1008,7 +1018,7 @@
     display: flex;
     align-items: center;
     gap: 30px;
-
+max-width:1200px;
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -1064,7 +1074,10 @@
 /* ========================= */
 
 @media (max-width: 768px) {
-
+.crcc-link-section{
+    border-radius: 1px;
+    margin-bottom: 0;
+}
     .crcc-card {
         flex-direction: column;
         text-align: center;
@@ -1082,4 +1095,44 @@
     .crcc-title {
         font-size: 1.8rem;
     }
+}
+.stream-box {
+    margin-bottom: 15px;
+}
+
+.stream-date {
+    font-weight: 600;
+    color: var(--green);
+    margin-bottom: 5px;
+}
+
+.stream-link {
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 500;
+}
+
+.stream-link:hover {
+    color: var(--gold);
+}
+@media (max-width: 600px) {
+    .detail-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-info {
+        width: 100%;
+        padding: 0;
+    }
+
+    .email-link,
+    .phone-link {
+        font-size: 0.85rem; /* prevents text overflow */
+    }
+}
+.email-link {
+    word-break: break-word;   /* 🔥 prevents overflow */
+    overflow-wrap: anywhere;
+    text-align: center;
 }

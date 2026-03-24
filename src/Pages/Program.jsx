@@ -87,6 +87,14 @@ function Program() {
                                 <li>9:45am – Anzac Day Ceremony</li>
                                 <li>10:00am – Knockout Semi Finals (Bo5) and other knockout matches</li>
                                 <li>Plate Events Continue</li>
+                                <a
+                                    href="https://youtube.com/"  /* replace later */
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="stream-link"
+                                >
+                                    ▶ Watch on YouTube
+                                </a>
                             </ul>
                         </div>
                     </div>
@@ -104,6 +112,14 @@ function Program() {
                                 <li>8:00am – Knockout Final (Bo5)</li>
                                 <li>Plate Final (Bo3)</li>
                                 <li>2:00pm – Prize Giving Ceremony</li>
+                                <a
+                                    href="https://youtube.com/"  /* replace later */
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="stream-link"
+                                >
+                                    ▶ Watch on YouTube
+                                </a>
                             </ul>
                         </div>
                     </div>

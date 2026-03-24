@@ -11,16 +11,20 @@ function Sponsors() {
             <h2 className="section-title">Platinum Sponsor</h2>
             <div className="platinum-sponsor">
                 <div className="person-card">
-                    <img src="/Alison.jpg" alt="Alison Sharpe" />
+                    <img src="/alison.png" alt="Alison Sharpe" />
                     <h3>Alison Sharpe</h3>
                 </div>
             </div>
 
-            <h2 className="section-title">Gold Sponsor</h2>
+            <h2 className="section-title">Gold Sponsor and Silver Sponsor</h2>
             <div className="platinum-sponsor">
                 <div className="person-card">
                     <img src="/georgina.png" alt="Georgina Carnegie" />
                     <h3>Georgina Carnegie</h3>
+                </div>
+                <div className="person-card">
+                    <img src="/missing.png" alt="Georgina Carnegie" />
+                    <h3>Freddy Sharpe</h3>
                 </div>
 
             </div>

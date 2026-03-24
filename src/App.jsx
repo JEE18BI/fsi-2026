@@ -9,6 +9,7 @@ import Players from "./Pages/Players.jsx"
 import Footer from "./Components/Footer.jsx"
 import ScrollToTop from "./Components/ScrollToTop.jsx";
 import Blocks from "./Pages/Blocks.jsx"
+import Contact from "./Pages/Contact.jsx"
 function App() {
     return (
         <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/officials" element ={<Officials />} />
                 <Route path="/blocks" element ={<Blocks />} />
 <Route path="/players" element={<Players/>}></Route>
+                <Route path="/contact" element={<Contact/>}></Route>
 
             </Routes>
             <Footer />

@@ -1,0 +1,209 @@
+
+
+/* SECTION */
+.contact-section {
+    padding: 80px 20px;
+    margin-top: 50px;
+    background: linear-gradient(135deg, #f7f7f7, #eaeaea);
+}
+
+/* MAIN BOX */
+.contact-container {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+    background: var(--white);
+    border-radius: 30px;
+    padding: 50px;
+
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+}
+
+/* LEFT */
+.contact-left {
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-left h1 {
+    font-size: 2.5rem;
+    color: var(--green);
+    margin-bottom: 20px;
+    align-items: center;   /* centers horizontally */
+    text-align: center;
+}
+
+.contact-text {
+    margin-bottom: 30px;
+    color: #555;
+    align-items: center;   /* centers horizontally */
+    text-align: center;
+}
+
+/* CARDS CONTAINER */
+.contact-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* SINGLE CARD */
+.contact-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    transition: 0.3s ease;
+    align-items: center;   /* centers horizontally */
+    text-align: center;
+
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* IMAGE */
+.contact-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid var(--gold);
+    align-items: center;   /* centers horizontally */
+    text-align: center;
+}
+
+/* NAME */
+.contact-card h3 {
+    font-size: 1.1rem;
+    color: var(--green);
+    margin-bottom: 5px;
+    align-items: center;   /* centers horizontally */
+    text-align: center;
+}
+
+/* DESC */
+.contact-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+    align-items: center;   /* centers horizontally */
+    text-align: center;
+}
+
+/* LINKS */
+.contact-card a {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--green);
+    text-decoration: none;
+    margin: 4px 0;
+
+}
+
+.contact-card a:hover {
+    color: var(--gold);
+}
+
+/* RIGHT SIDE */
+.contact-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-right img {
+    max-width: 350px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 780px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-cards {
+        justify-content: center;
+    }
+
+}
+.contact-right img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+
+    /* Depth */
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+
+    /* Smooth animation */
+    transition: all 0.4s ease;
+}
+
+/* Hover effect */
+.contact-right img:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 35px 80px rgba(0,0,0,0.2);
+}
+.contact-right img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+
+    box-shadow:
+            0 25px 60px rgba(0,0,0,0.12),
+            0 0 0 3px rgba(200, 169, 81, 0.2); /* subtle gold ring */
+
+    transition: all 0.4s ease;
+}
+
+.contact-right img:hover {
+    transform: translateY(-10px);
+    box-shadow:
+            0 35px 80px rgba(0,0,0,0.18),
+            0 0 0 4px rgba(200, 169, 81, 0.4);
+}
+@media (max-width: 900px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* 👇 THIS moves image to the top */
+    .contact-right {
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .contact-cards {
+        justify-content: center;
+    }
+}
+.contact-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 270px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    transition: 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

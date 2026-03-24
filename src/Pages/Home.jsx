@@ -1,6 +1,7 @@
 import "./Home.css";
 import { useEffect, useState } from "react";
 import { FaCalendarAlt, FaMapMarkerAlt, FaEnvelope, FaChevronDown } from "react-icons/fa";
+import { FaVideo } from "react-icons/fa";
 
 const images = [
     "/img.png",
@@ -106,7 +107,8 @@ function Home() {
                                 View on Google Maps
                             </a>
                         </div>
-                    </div>
+                    </div>{/* LOCATION */}
+
 
 
                     {/* CONTACT */}
@@ -148,36 +150,54 @@ function Home() {
 
                             </div>
                         </div>
+                        {/* LIVE STREAMING */}
 
+
+                    </div>
+                    <div className={`detail-box ${openBoxes[3] ? "active" : ""}`}>
+                        <div className="detail-header" onClick={() => toggleCard(3)}>
+
+                            <div className="detail-title">
+                                <FaVideo className="detail-icon"/>
+                                <h3>Live Streaming</h3>
+                            </div>
+
+                            <FaChevronDown className={`arrow ${openBoxes[3] ? "rotate" : ""}`} />
+
+                        </div>
+
+                        <div className={`detail-content ${openBoxes[3] ? "open" : ""}`}>
+
+                            <div className="stream-box">
+                                <p className="stream-date">📅 Saturday 25 April</p>
+                                <a
+                                    href="https://youtube.com/"  /* replace later */
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="stream-link"
+                                >
+                                    ▶ Watch on YouTube
+                                </a>
+                            </div>
+
+                            <div className="stream-box">
+                                <p className="stream-date">📅 Sunday 26 April</p>
+                                <a
+                                    href="https://youtube.com/"  /* replace later */
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="stream-link"
+                                >
+                                    ▶ Watch on YouTube
+                                </a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
             </section>
-            {/* CRCC CONNECTION */}
-            <section className="crcc-link-section">
-                <div className="crcc-container">
 
-                    <h2 className="crcc-title">Hosted by</h2>
-
-                    <a
-                        href="https://cooksrivercroquetclub.com/home/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="crcc-card"
-                    >
-                        <img src="/img_6.png" alt="Cooks River Croquet Club" />
-
-                        <div className="crcc-text">
-                            <h3>Cooks River Croquet Club</h3>
-                            <p className="p-text">
-                                Click to visit the official website of the host club to learn more
-                                about the venue, community, and events.
-                            </p>
-                        </div>
-                    </a>
-
-                </div>
-            </section>
 
 
             {/* HISTORY HERO */}
@@ -314,10 +334,53 @@ function Home() {
                     </p>
 
                     <span className="quote-author">
-            — Felix Gelman-White
+                        — Felix Gelman-White
                         - young Australian croquet player
-          </span>
+                    </span>
 
+                </section>
+                <section
+                    className="crcc-link-section"
+                    style={{
+                        backgroundImage: "url('/cookwood.jpeg')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        position: "relative"
+                    }}
+                >
+
+                    {/* overlay */}
+                    <div style={{
+                        position: "absolute",
+                        inset: 0,
+                        background: "rgba(0,0,0,0.03)",
+                        zIndex: 1,
+
+                    }} />
+
+                    <div className="crcc-container" style={{ position: "relative", zIndex: 2 }}>
+
+
+
+                        <a
+                            href="https://cooksrivercroquetclub.com/home/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="crcc-card"
+                        > <h2 className="crcc-title" >Hosted by</h2>
+                            <img src="/img_6.png" alt="Cooks River Croquet Club" />
+
+                            <div className="crcc-text">
+                                <h3>Cooks River Croquet Club</h3>
+                                <p className="p-text">
+                                    Click to visit the official website of the host club to learn more
+                                    about the venue, community, and events.
+                                </p>
+                            </div>
+                        </a>
+
+                    </div>
                 </section>
 
             </div>

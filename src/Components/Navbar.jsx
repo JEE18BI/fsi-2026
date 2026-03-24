@@ -31,6 +31,7 @@ function Navbar() {
                     <Link to="/officials">Officials</Link>
                     <Link to="/schedule">Program</Link>
                     <Link to="/players">Players</Link>
+                    <Link to="/Contact">Contact</Link>
                     <Link to="/blocks">Blocks</Link>
                     <Link to="/thanks">Thanks</Link>
 
