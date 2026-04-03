@@ -17,18 +17,18 @@ function Contact(){
 
                         {/* GREG */}
                         <div className="contact-card">
-                            <img src="/Greg.JPG" alt="Greg Fletcher" />
-                            <h3>Greg Fletcher</h3>
+                            <img src="/Alison.jpg" alt="Greg Fletcher" />
+                            <h3>Alison Sharpe</h3>
+<p>Player Liaison</p>
 
-
-                            <a href="mailto:admin@ucaevents.org">✉️ admin@ucaevents.org</a>
+                            <a href="mailto:Croquet1@outlook.com">✉️ Croquet1@outlook.com</a>
                         </div>
 
                         {/* PAULINE */}
                         <div className="contact-card">
                             <img src="/pauline.png" alt="Pauline Markwell" />
                             <h3>Pauline Markwell</h3>
-
+<p>Player Liaison</p>
 
                             <a href="mailto:markwell.pauline@gmail.com">
                                 ✉️ markwell.pauline@gmail.com

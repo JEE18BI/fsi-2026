@@ -64,7 +64,7 @@ function Home() {
 
                         <div className={`detail-content ${openBoxes[0] ? "open" : ""}`}>
                             <div className="date-info">
-                                <p className="main-date">Wednesday 22 – Sunday 26 April 2026</p>
+                                <p className="main-date">Wednesday 22 – Sunday 25 April 2026</p>
 
                                 <div className="schedule-box">
                                     <p>📝 <strong>Registration:</strong> Tuesday afternoon</p>
@@ -126,11 +126,11 @@ function Home() {
 
                         <div className={`detail-content ${openBoxes[2] ? "open" : ""}`}>
                             <div className="contact-info">
-                                <p className="contact-name">Greg Fletcher</p>
+                                <p className="contact-name">Alison Sharpe</p>
                                 <p className="contact-desc">For tournament enquiries and registration.</p>
 
-                                <a href="mailto:admin@ucaevents.org" className="email-link">
-                                    ✉️ admin@ucaevents.org
+                                <a href="mailto:Croquet1@outlook.com" className="email-link">
+                                    ✉️ Croquet1@outlook.com
                                 </a>
                             </div>
                         </div>

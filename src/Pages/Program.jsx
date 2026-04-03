@@ -65,10 +65,13 @@ function Program() {
 
                         <div className="timeline-content">
                             <h3>Friday</h3>
+                            {/*<ul>*/}
+                            {/*    <li>1st Round Knockout (Bo3)</li>*/}
+                            {/*    <li>Quarter Finals of the X and Y (Bo5)</li>*/}
+                            {/*    <li>Plate Events Commence (Bo3)</li>*/}
+                            {/*</ul>*/}
                             <ul>
-                                <li>1st Round Knockout (Bo3)</li>
-                                <li>Quarter Finals of the X and Y (Bo5)</li>
-                                <li>Plate Events Commence (Bo3)</li>
+                                will be announced later
                             </ul>
                         </div>
                     </div>
@@ -82,47 +85,26 @@ function Program() {
 
                         <div className="timeline-content">
                             <h3>Saturday – Anzac Day - Australian National Holiday</h3>
-                            <ul>
-                                <li>9:00am - Court set up and warm up</li>
-                                <li>9:45am – Anzac Day Ceremony</li>
-                                <li>10:00am – Knockout Semi Finals (Bo5) and other knockout matches</li>
-                                <li>Plate Events Continue</li>
-                                <a
-                                    href="https://youtube.com/"  /* replace later */
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="stream-link"
-                                >
-                                    ▶ Watch on YouTube
-                                </a>
-                            </ul>
+                            <ul>will be announced later</ul>
+                            {/*<ul>*/}
+                            {/*    <li>9:00am - Court set up and warm up</li>*/}
+                            {/*    <li>9:45am – Anzac Day Ceremony</li>*/}
+                            {/*    <li>10:00am – Knockout Semi Finals (Bo5) and other knockout matches</li>*/}
+                            {/*    <li>Plate Events Continue</li>*/}
+                            {/*    <a*/}
+                            {/*        href="https://youtube.com/"  /* replace later */}
+                            {/*        target="_blank"*/}
+                            {/*        rel="noreferrer"*/}
+                            {/*        className="stream-link"*/}
+                            {/*    >*/}
+                            {/*        ▶ Watch on YouTube*/}
+                            {/*    </a>*/}
+                            {/*</ul>*/}
                         </div>
                     </div>
 
                     {/* DAY 5 */}
-                    <div className="timeline-item">
-                        <div className="timeline-date">
-                            <span className="date-number">26</span>
-                            <span className="date-month">APR</span>
-                        </div>
 
-                        <div className="timeline-content">
-                            <h3>Sunday</h3>
-                            <ul>
-                                <li>8:00am – Knockout Final (Bo5)</li>
-                                <li>Plate Final (Bo3)</li>
-                                <li>2:00pm – Prize Giving Ceremony</li>
-                                <a
-                                    href="https://youtube.com/"  /* replace later */
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="stream-link"
-                                >
-                                    ▶ Watch on YouTube
-                                </a>
-                            </ul>
-                        </div>
-                    </div>
 
                 </div>
             </div>
