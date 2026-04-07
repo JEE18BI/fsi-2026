@@ -64,7 +64,7 @@ function Home() {
 
                         <div className={`detail-content ${openBoxes[0] ? "open" : ""}`}>
                             <div className="date-info">
-                                <p className="main-date">Wednesday 22 – Sunday 25 April 2026</p>
+                                <p className="main-date">Wednesday 22 – Saturday 25 April 2026</p>
 
                                 <div className="schedule-box">
                                     <p>📝 <strong>Registration:</strong> Tuesday afternoon</p>
@@ -180,17 +180,7 @@ function Home() {
                                 </a>
                             </div>
 
-                            <div className="stream-box">
-                                <p className="stream-date">📅 Sunday 26 April</p>
-                                <a
-                                    href="https://youtube.com/"  /* replace later */
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="stream-link"
-                                >
-                                    ▶ Watch on YouTube
-                                </a>
-                            </div>
+
 
                         </div>
                     </div>
