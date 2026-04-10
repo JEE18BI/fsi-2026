@@ -17,7 +17,7 @@ function Contact(){
 
                         {/* GREG */}
                         <div className="contact-card">
-                            <img src="/Alison.jpg" alt="Greg Fletcher" />
+                            <img src="/Alison.jpg" alt="Alison Sharpe" />
                             <h3>Alison Sharpe</h3>
 <p>Player Liaison</p>
 

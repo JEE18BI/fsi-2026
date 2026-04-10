@@ -29,14 +29,8 @@ function Sponsors() {
 
             </div>
 
-            <h2 className="section-title">Lawn Sponsors</h2>
-            <div className="people-grid">
-                <div className="person-card"><h3>Lawn 3 (Final)</h3></div>
-                <div className="person-card"><h3>Lawn 2</h3></div>
-                <div className="person-card"><h3>Lawn 1</h3></div>
-            </div>
 
-            <h2 className="section-title">Live Streaming</h2>
+
 
 
             <h2 className="section-title">Raffle Sponsors</h2>
@@ -79,7 +73,7 @@ function Sponsors() {
 
             <h3 className="role-title">Commentators</h3>
             <div className="platinum-sponsor">
-                <div className="person-card"><img src="/gareth.png" alt="Gareth Denyer" /><h3>Gareth Denyer</h3></div>
+
                 <div className="person-card"><img src="/karen.jpg" alt="Karen Bisley" /><h3>Karen Bisley</h3></div>
             </div>
 
