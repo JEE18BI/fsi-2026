@@ -171,7 +171,7 @@ function Home() {
                             <div className="stream-box">
                                 <p className="stream-date">📅 Saturday 25 April</p>
                                 <a
-                                    href="https://youtube.com/"  /* replace later */
+                                    href="https://youtube.com/live/ChCLM2oT_DY?feature=share"  /* replace later */
                                     target="_blank"
                                     rel="noreferrer"
                                     className="stream-link"

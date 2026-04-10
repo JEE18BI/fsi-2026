@@ -65,14 +65,14 @@ function Program() {
 
                         <div className="timeline-content">
                             <h3>Friday</h3>
-                            {/*<ul>*/}
-                            {/*    <li>1st Round Knockout (Bo3)</li>*/}
-                            {/*    <li>Quarter Finals of the X and Y (Bo5)</li>*/}
-                            {/*    <li>Plate Events Commence (Bo3)</li>*/}
-                            {/*</ul>*/}
                             <ul>
-                                will be announced later
+                                <li> 7.00am - Court set up and warm up. </li>
+
+                                <li>8:00am - Block play, SemiFinals and Plate</li>
+
+
                             </ul>
+
                         </div>
                     </div>
 
@@ -85,25 +85,25 @@ function Program() {
 
                         <div className="timeline-content">
                             <h3>Saturday – Anzac Day - Australian National Holiday</h3>
-                            <ul>will be announced later</ul>
-                            {/*<ul>*/}
-                            {/*    <li>9:00am - Court set up and warm up</li>*/}
-                            {/*    <li>9:45am – Anzac Day Ceremony</li>*/}
-                            {/*    <li>10:00am – Knockout Semi Finals (Bo5) and other knockout matches</li>*/}
-                            {/*    <li>Plate Events Continue</li>*/}
-                            {/*    <a*/}
-                            {/*        href="https://youtube.com/"  /* replace later */}
-                            {/*        target="_blank"*/}
-                            {/*        rel="noreferrer"*/}
-                            {/*        className="stream-link"*/}
-                            {/*    >*/}
-                            {/*        ▶ Watch on YouTube*/}
-                            {/*    </a>*/}
-                            {/*</ul>*/}
+
+                            <ul>
+                                <li>7:30am - Court set up and warm up.  </li>
+                                <li>8:30am - Anzac Day Ceremony.</li>
+                                <li>8:45am - Finals.</li>
+                                <li>2:00pm approx - Prize Presentations</li>
+                                <a
+                                    href=" https://youtube.com/live/ChCLM2oT_DY?feature=share"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="stream-link"
+                                >
+                                    ▶ Watch on YouTube
+                                </a>
+                            </ul>
                         </div>
                     </div>
 
-                    {/* DAY 5 */}
+
 
 
                 </div>
@@ -135,10 +135,7 @@ function Program() {
                             ‘Z’ winner       	$750
 
                         </li>
-                        <li>
-                            ‘Y’ winner       	$500
 
-                        </li>
                         <li>
                             ‘W’ winner     	$300
 

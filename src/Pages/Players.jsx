@@ -2,7 +2,7 @@ import "./Players.css";
 
 const players = [
     { name: "Edward Wilson", country: "Australia", grade: 2534, img: "/edward.png" },
-    { name: "Malcolm Fletcher", country: "Australia", grade: 2485, img: "/malcolm.jpg" },
+
     { name: "Levi Franks", country: "New Zealand", grade: 2470, img: "/levi.png" },
 
     { name: "Josh Winter", country: "New Zealand", grade: 2283, img: "/josh_winter.jpg" },
@@ -14,7 +14,7 @@ const players = [
     { name: "Luke Francis", country: "New Zealand", grade: 2032, img: "/luke.jpg" },
     { name: "James Duggan", country: "New Zealand", grade: 2006, img: "/james_duggan.jpg" },
     { name: "Mattie Clarkeson", country: "New Zealand", grade: 1998, img: "/mattie.png" },
-    { name: "Ben Bowen", country: "Australia", grade: 1650, img: "/missing.png" },
+
     { name: "James Mason", country: "Australia", grade: 1520, img: "/missing.png" },{ name: "Addison Matthews", country: "Australia", grade: 2240, img: "/addison.png" },
     { name: "Casey De-Vene", country: "Australia", grade: 1849, img: "/missing.png" }, { name: "Robert Fletcher", country: "Australia", grade: 2748, img: "/robert.jpeg" },
 

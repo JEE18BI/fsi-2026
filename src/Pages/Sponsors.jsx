@@ -104,6 +104,7 @@ function Sponsors() {
                 <div className="person-card"><h3>Janet Robilliard</h3></div>
                 <div className="person-card"><h3>Barbara Killen</h3></div>
                 <div className="person-card"><h3>Carolyn Williams</h3></div>
+                <div className="person-card"><h3>Bob Berry</h3></div>
             </div>
 
             <h3 className="role-title">Media</h3>
