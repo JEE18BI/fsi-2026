@@ -18,7 +18,7 @@ function Program() {
                         <div className="timeline-content">
                             <h3>Tuesday</h3>
                             <ul>
-                                <li>2:00pm - 4:00pm Registration</li>
+                                <li>2:00pm - 4:00pm Registration & Practice</li>
 
                             </ul>
                         </div>
@@ -136,10 +136,7 @@ function Program() {
 
                         </li>
 
-                        <li>
-                            ‘W’ winner     	$300
 
-                        </li>
                         <li>
                             Plate winner  	$250
 

@@ -58,6 +58,13 @@ function Officials() {
                         <h3>Alison Sharpe</h3>
                     </div>
                 </div>
+                <h2 className="role-heading">Player Liaison</h2>
+                <div className="platinum-sponsor">
+                    <div className="person-card">
+                        <img src="/Greg.JPG" alt="Greg Fletcher" />
+                        <h3>Greg Fletcher</h3>
+                    </div>
+                </div>
 
 
 

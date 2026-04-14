@@ -7,7 +7,7 @@ const players = [
 
     { name: "Josh Winter", country: "New Zealand", grade: 2283, img: "/josh_winter.jpg" },
     { name: "Felix Gelman-White", country: "Australia", grade: 2245, img: "/felix.png" },
-    { name: "Paul Kaiser", country: "New Zealand", grade: 2215, img: "/missing.png" },
+    { name: "Paul Kaiser", country: "New Zealand", grade: 2215, img: "/paul.png" },
     { name: "Nathan Bullen", country: "New Zealand", grade: 2104, img: "/nathan_bullen.jpeg" },
     { name: "Jason Hodgett", country: "New Zealand", grade: 2096, img: "/missing.png" },
     { name: "Mikey Lauer", country: "New Zealand", grade: 2065, img: "/mikey.jpg" },
