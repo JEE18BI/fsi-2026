@@ -503,3 +503,136 @@
 .prize-list li:first-child span {
     color: var(--gold);
 }
+/* ===== TIMELINE CONTENT ===== */
+
+.timeline-content {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* Title */
+.timeline-content h3 {
+    font-family: 'Cinzel', serif;
+    color: var(--green);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+/* LIST RESET */
+.timeline-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* EACH ITEM */
+.timeline-content li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* GOLD BULLET */
+.timeline-content li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 8px;
+    height: 8px;
+    background: var(--gold);
+    border-radius: 50%;
+}
+
+/* TIME HIGHLIGHT */
+.timeline-content li strong {
+    color: var(--green);
+}
+
+/* HIGHLIGHT DAY (FINAL DAY) */
+.highlight .timeline-content {
+    background: linear-gradient(
+            135deg,
+            rgba(255,205,0,0.15),
+            rgba(0,132,61,0.05)
+    );
+    border-left: 4px solid var(--gold);
+}
+@media (max-width: 768px){
+
+    /* TIMELINE LAYOUT */
+    .timeline{
+        padding-left: 0;
+    }
+
+    .timeline::before{
+        left: 20px;
+    }
+
+    /* ITEM SPACING */
+    .timeline-item{
+        margin-bottom: 50px;
+    }
+
+    /* DATE BADGE */
+    .timeline-date{
+        width: 55px;
+        height: 55px;
+        left: 20px;
+        transform: translateX(-50%);
+        font-size: 0.8rem;
+    }
+
+    .date-number{
+        font-size: 1.2rem;
+    }
+
+    .date-month{
+        font-size: 0.6rem;
+    }
+
+    /* CONTENT CARD */
+    .timeline-content{
+        margin-left: 40px;
+        padding: 15px 18px;
+        border-radius: 10px;
+    }
+
+    /* TITLE */
+    .timeline-content h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    /* LIST ITEMS */
+    .timeline-content li{
+        font-size: 0.9rem;
+        padding-left: 20px;
+        margin-bottom: 8px;
+        line-height: 1.4;
+    }
+
+    /* BULLET */
+    .timeline-content li::before{
+        width: 6px;
+        height: 6px;
+        top: 6px;
+    }
+
+    /* HIGHLIGHT DAY */
+    .highlight .timeline-content{
+        border-left: 3px solid var(--gold);
+    }
+
+}
