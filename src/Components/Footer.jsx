@@ -18,6 +18,7 @@ function Footer() {
                     <Link to="/players">Players</Link>
                     <Link to="/schedule">Program</Link>
                     <Link to="/officials">Officials</Link>
+                    <Link to="/blocks">Blocks</Link>
                 </div>
 
                 <div className="footer-contact">
