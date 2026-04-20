@@ -1,59 +1,111 @@
-import React from "react";
+import "./Blocks.css";
 
-const ComingSoon = () => {
+function Blocks() {
     return (
-        <div style={styles.container}>
-            <h1 style={styles.title}>Coming Soon</h1>
+        <section className="blocks-section">
 
-            <div style={styles.divider}></div>
+            <h1 className="blocks-title">Block Allocation</h1>
 
-            <p style={styles.subtitle}>
-                We’re preparing something exceptional. Stay tuned.
-            </p>
+            <div className="blocks-wrapper">
 
-            <p style={styles.footer}>
-                Fletcher Sharpe Invitational
-            </p>
-        </div>
+                {/* GREEN BLOCK */}
+                <div className="block-card green">
+                    <h2>Green Block</h2>
+
+                    <div className="block-list">
+
+                        <div className="block-row">
+                            <span>Robert Fletcher</span>
+                            <span>2748</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Josh Winter</span>
+                            <span>2274</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Felix Gelman-White</span>
+                            <span>2244</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Nathan Bullen</span>
+                            <span>2160</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Jason Hodgett</span>
+                            <span>2089</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>James Duggan</span>
+                            <span>2007</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Mattie Clarkson</span>
+                            <span>1987</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                {/* GOLD BLOCK */}
+                <div className="block-card gold">
+                    <h2>Gold Block</h2>
+
+                    <div className="block-list">
+
+                        <div className="block-row">
+                            <span>Edward Wilson</span>
+                            <span>2534</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Levi Franks</span>
+                            <span>2463</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Addison Matthews</span>
+                            <span>2240</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Paul Kaiser</span>
+                            <span>2232</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Michael Lauer</span>
+                            <span>2065</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Luke Francis</span>
+                            <span>2032</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>Casey De-Vene</span>
+                            <span>1849</span>
+                        </div>
+
+                        <div className="block-row">
+                            <span>James Mason</span>
+                            <span>1501</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
     );
-};
+}
 
-const styles = {
-    container: {
-        height: "100vh",
-        width: "100%",
-        backgroundColor: "#FFFFFF",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        textAlign: "center",
-        padding: "20px",
-    },
-    title: {
-        fontSize: "64px",
-        color: "#00843D", // green
-        letterSpacing: "2px",
-        marginBottom: "10px",
-    },
-    divider: {
-        width: "80px",
-        height: "3px",
-        backgroundColor: "#FFCD00", // gold
-        margin: "20px 0",
-    },
-    subtitle: {
-        fontSize: "20px",
-        color: "#0C0C0C",
-        maxWidth: "500px",
-        lineHeight: "1.6",
-    },
-    footer: {
-        marginTop: "30px",
-        fontSize: "14px",
-        color: "#666",
-        letterSpacing: "1px",
-    },
-};
-
-export default ComingSoon;
+export default Blocks;
