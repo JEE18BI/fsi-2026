@@ -1136,3 +1136,13 @@ max-width:1200px;
     overflow-wrap: anywhere;
     text-align: center;
 }
+@media (max-width: 768px) {
+
+    .player-photo img {
+        height: auto;           /* 🔥 stop forcing height */
+        aspect-ratio: 4/3;      /* keeps shape nice */
+        object-fit: contain;    /* 🔥 NO cropping */
+        background: white;       /* fills empty space nicely */
+    }
+
+}
