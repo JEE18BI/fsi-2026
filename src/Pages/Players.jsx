@@ -16,7 +16,7 @@ const players = [
     { name: "Mattie Clarkson", country: "New Zealand", grade: 1998, img: "/mattie.png" },
 
     { name: "James Mason", country: "Australia", grade: 1520, img: "/missing.png" },{ name: "Addison Matthews", country: "Australia", grade: 2240, img: "/addison.png" },
-    { name: "Casey De-Vene", country: "Australia", grade: 1849, img: "/missing.png" }, { name: "Robert Fletcher", country: "Australia", grade: 2748, img: "/robert.jpeg" },
+    { name: "Casey De-Vene", country: "Australia", grade: 1849, img: "/missing.png" },
 
 ];
 
