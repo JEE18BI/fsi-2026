@@ -9,7 +9,7 @@ const players = [
     { name: "Felix Gelman-White", country: "Australia", grade: 2245, img: "/felix.png" },
     { name: "Paul Kaiser", country: "New Zealand", grade: 2215, img: "/paul.png" },
     { name: "Nathan Bullen", country: "New Zealand", grade: 2104, img: "/nathan_bullen.jpeg" },
-    { name: "Jason Hodgett", country: "New Zealand", grade: 2096, img: "/missing.png" },
+    { name: "Jason Hodgett", country: "New Zealand", grade: 2096, img: "/Jason.png" },
     { name: "Mikey Lauer", country: "New Zealand", grade: 2065, img: "/mikey.jpg" },
     { name: "Luke Francis", country: "New Zealand", grade: 2032, img: "/luke.jpg" },
     { name: "James Duggan", country: "New Zealand", grade: 2006, img: "/james_duggan.jpg" },

@@ -15,39 +15,37 @@ function Blocks() {
                     <div className="block-list">
 
                         <div className="block-row">
-                            <span>Robert Fletcher</span>
-                            <span>2748</span>
+                            <span>Edward Wilson</span>
+                            <span>2534</span>
                         </div>
-
                         <div className="block-row">
                             <span>Josh Winter</span>
                             <span>2274</span>
                         </div>
-
                         <div className="block-row">
-                            <span>Felix Gelman-White</span>
-                            <span>2244</span>
+                            <span>Addison Matthews</span>
+                            <span>2240</span>
                         </div>
+
+
 
                         <div className="block-row">
                             <span>Nathan Bullen</span>
                             <span>2160</span>
                         </div>
-
                         <div className="block-row">
-                            <span>Jason Hodgett</span>
-                            <span>2089</span>
+                            <span>Michael Lauer</span>
+                            <span>2065</span>
                         </div>
-
                         <div className="block-row">
                             <span>James Duggan</span>
                             <span>2007</span>
                         </div>
-
                         <div className="block-row">
-                            <span>Mattie Clarkson</span>
-                            <span>1987</span>
+                            <span>James Mason</span>
+                            <span>1501</span>
                         </div>
+
 
                     </div>
                 </div>
@@ -59,20 +57,17 @@ function Blocks() {
 
                     <div className="block-list">
 
-                        <div className="block-row">
-                            <span>Edward Wilson</span>
-                            <span>2534</span>
-                        </div>
+
 
                         <div className="block-row">
                             <span>Levi Franks</span>
                             <span>2463</span>
                         </div>
-
                         <div className="block-row">
-                            <span>Addison Matthews</span>
-                            <span>2240</span>
+                            <span>Felix Gelman-White</span>
+                            <span>2244</span>
                         </div>
+
 
                         <div className="block-row">
                             <span>Paul Kaiser</span>
@@ -80,13 +75,19 @@ function Blocks() {
                         </div>
 
                         <div className="block-row">
-                            <span>Michael Lauer</span>
-                            <span>2065</span>
+                            <span>Jason Hodgett</span>
+                            <span>2089</span>
                         </div>
+
+
 
                         <div className="block-row">
                             <span>Luke Francis</span>
                             <span>2032</span>
+                        </div>
+                        <div className="block-row">
+                            <span>Mattie Clarkson</span>
+                            <span>1987</span>
                         </div>
 
                         <div className="block-row">
@@ -94,10 +95,7 @@ function Blocks() {
                             <span>1849</span>
                         </div>
 
-                        <div className="block-row">
-                            <span>James Mason</span>
-                            <span>1501</span>
-                        </div>
+
 
                     </div>
                 </div>
