@@ -34,6 +34,7 @@ function Navbar() {
                     <Link to="/Contact">Contact</Link>
                     <Link to="/blocks">Blocks</Link>
                     <Link to="/thanks">Thanks</Link>
+                    <Link to="/gallery">Gallery</Link>
 
                 </div>
 
