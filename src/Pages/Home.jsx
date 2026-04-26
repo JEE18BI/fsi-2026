@@ -217,6 +217,95 @@ function Home() {
                     </div>
                 </section>
 
+                {/* 2026 */}
+                <section className="history-year">
+                    <h2>2026 Championship</h2>
+
+                    <p>
+                        The semi-finals featured <strong>Edward Wilson</strong>,
+                        <strong> Felix Gelman White</strong>,
+                        <strong> Josh Winter </strong>,
+                        and
+                        <strong> Levi Franks</strong>.
+                    </p>
+
+                    <p>
+                        <strong>Edward Wilson</strong> defeated
+                        <strong> Levi Franks</strong> in the final.
+                    </p>
+
+
+
+                    <div className="finalists-images">
+
+                        <div className="player-photo">
+                            <img src="/edward.png" alt="edward" />
+                            <p>Edward Wilson</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/levi.png" alt="Levi" />
+                            <p>Levi Franks</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/felix.png" alt="felix" />
+                            <p>Felix Gelman White</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/josh_winter.jpg" alt="Josh Winter" />
+                            <p>Josh Winter</p>
+                        </div>
+
+                    </div>
+
+
+                </section>
+                {/* 2025 */}
+                <section className="history-year">
+                    <h2>2025 Championship</h2>
+
+                    <p>
+                        The semi-finals featured <strong>Edward Wilson</strong>,
+                        <strong> Malcolm Fletcher</strong>,
+                        <strong> Greg Fletcher</strong>, and
+                        <strong> Levi Franks</strong>.
+                    </p>
+
+                    <p>
+                        <strong>Malcolm Fletcher</strong> defeated
+                        <strong> Greg Fletcher</strong> in the final.
+                    </p>
+
+
+
+                    <div className="finalists-images">
+
+                        <div className="player-photo">
+                            <img src="/malcolm.jpg" alt="Malcolm Fletcher" />
+                            <p>Malcolm Fletcher</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/Greg.JPG" alt="Greg" />
+                            <p>Greg Fletcher</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/levi.png" alt="LEVI" />
+                            <p>Levi Franks</p>
+                        </div>
+
+                        <div className="player-photo">
+                            <img src="/edward.png" alt="Edward Wilson" />
+                            <p>Edward Wilson</p>
+                        </div>
+
+                    </div>
+
+
+                </section>
 
                 {/* 2024 */}
                 <section className="history-year">
@@ -262,50 +351,6 @@ function Home() {
                 </section>
 
 
-                {/* 2025 */}
-                <section className="history-year">
-                    <h2>2025 Championship</h2>
-
-                    <p>
-                        The semi-finals featured <strong>Edward Wilson</strong>,
-                        <strong> Malcolm Fletcher</strong>,
-                        <strong> Greg Fletcher</strong>, and
-                        <strong> Levi Franks</strong>.
-                    </p>
-
-                    <p>
-                        <strong>Malcolm Fletcher</strong> defeated
-                        <strong> Greg Fletcher</strong> in the final.
-                    </p>
-
-
-
-                    <div className="finalists-images">
-
-                        <div className="player-photo">
-                            <img src="/malcolm.jpg" alt="Malcolm Fletcher" />
-                            <p>Malcolm Fletcher</p>
-                        </div>
-
-                        <div className="player-photo">
-                            <img src="/Greg.JPG" alt="Greg" />
-                            <p>Greg Fletcher</p>
-                        </div>
-
-                        <div className="player-photo">
-                            <img src="/levi.png" alt="LEVI" />
-                            <p>Levi Franks</p>
-                        </div>
-
-                        <div className="player-photo">
-                            <img src="/edward.png" alt="Edward Wilson" />
-                            <p>Edward Wilson</p>
-                        </div>
-
-                    </div>
-
-
-                </section>
 
 
                 {/* PLAYER QUOTE */}
