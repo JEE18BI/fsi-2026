@@ -1146,3 +1146,157 @@ max-width:1200px;
     }
 
 }
+.tournament-popup {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 320px;
+    max-width: calc(100vw - 48px);
+    padding: 25px;
+    background: #f7f5f0;
+    border-top: 4px solid #7a263a;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    box-sizing: border-box;
+    animation: popupFadeIn 0.5s ease;
+}
+
+.popup-label {
+    color: #7a263a;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.tournament-popup h3 {
+    color: #242424;
+    font-size: 21px;
+    line-height: 1.35;
+    margin: 12px 0 8px;
+}
+
+.tournament-popup p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.popup-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #666;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.popup-close:hover {
+    color: #7a263a;
+}
+
+@keyframes popupFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .tournament-popup {
+        bottom: 15px;
+        right: 15px;
+        max-width: calc(100vw - 30px);
+    }
+}
+.tournament-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    max-width: 900px;
+    padding: 70px 50px;
+
+    background: #f7f5f0;
+    border-top: 5px solid #7a263a;
+    border-radius: 10px;
+
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    box-sizing: border-box;
+    text-align: center;
+
+    animation: popupFadeIn 0.5s ease;
+}
+
+.popup-label {
+    color: #7a263a;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.tournament-popup h3 {
+    color: #242424;
+    font-size: clamp(26px, 4vw, 42px);
+    margin: 20px 0;
+}
+
+.tournament-popup p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 22px;
+    background: none;
+    border: none;
+    font-size: 35px;
+    color: #666;
+    cursor: pointer;
+}
+
+.popup-close:hover {
+    color: #7a263a;
+}
+
+@keyframes popupFadeIn {
+    from {
+        opacity: 0;
+        translate: 0 15px;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .tournament-popup {
+        width: 92%;
+        padding: 55px 25px;
+    }
+
+    .tournament-popup p {
+        font-size: 15px;
+    }
+
+    .popup-close {
+        top: 8px;
+        right: 12px;
+    }
+}

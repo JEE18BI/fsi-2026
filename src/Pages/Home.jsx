@@ -34,10 +34,24 @@ function Home() {
 
     return (
         <div className="home">
+            <div id="tournament-popup" className="tournament-popup">
+                <button className="popup-close"
+                        onClick="document.getElementById('tournament-popup').remove()"
+                        aria-label="Close announcement">
+                    &times;
+                </button>
+
+                <span className="popup-label">COMING SOON</span>
+                <h3>2027 Fletcher Sharpe Invitational</h3>
+                <p>We're working on the 2027 tournament.bv   
+                    Stay tuned for updates!</p>
+            </div>
+
+
 
             {/* HERO */}
             <section className="hero-clean">
-                <img src="/Sydney.png" alt="Sydney" className="hero-bg" />
+                <img src="/Sydney.png" alt="Sydney" className="hero-bg"/>
                 <div className="hero-content">
                     <h1>Fletcher Sharpe Invitational</h1>
                     <h2>Under 35s Golf Croquet Tournament 2026</h2>
@@ -58,7 +72,7 @@ function Home() {
                                 <h3>Date</h3>
                             </div>
 
-                            <FaChevronDown className={`arrow ${openBoxes[0] ? "rotate" : ""}`} />
+                            <FaChevronDown className={`arrow ${openBoxes[0] ? "rotate" : ""}`}/>
 
                         </div>
 
@@ -84,7 +98,7 @@ function Home() {
                                 <h3>Location</h3>
                             </div>
 
-                            <FaChevronDown className={`arrow ${openBoxes[1] ? "rotate" : ""}`} />
+                            <FaChevronDown className={`arrow ${openBoxes[1] ? "rotate" : ""}`}/>
 
                         </div>
 
@@ -107,8 +121,8 @@ function Home() {
                                 View on Google Maps
                             </a>
                         </div>
-                    </div>{/* LOCATION */}
-
+                    </div>
+                    {/* LOCATION */}
 
 
                     {/* CONTACT */}
@@ -120,7 +134,7 @@ function Home() {
                                 <h3>Contacts</h3>
                             </div>
 
-                            <FaChevronDown className={`arrow ${openBoxes[2] ? "rotate" : ""}`} />
+                            <FaChevronDown className={`arrow ${openBoxes[2] ? "rotate" : ""}`}/>
 
                         </div>
 
@@ -162,7 +176,7 @@ function Home() {
                                 <h3>Live Streaming</h3>
                             </div>
 
-                            <FaChevronDown className={`arrow ${openBoxes[3] ? "rotate" : ""}`} />
+                            <FaChevronDown className={`arrow ${openBoxes[3] ? "rotate" : ""}`}/>
 
                         </div>
 
@@ -181,13 +195,11 @@ function Home() {
                             </div>
 
 
-
                         </div>
                     </div>
                 </div>
 
             </section>
-
 
 
             {/* HISTORY HERO */}
@@ -207,11 +219,18 @@ function Home() {
                         <h2>How did it start?</h2>
 
                         <p>
-                            The Fletcher Sharpe Invitational was first played in 2024 as the brainchild of Robert Fletcher and Georgina Carnegie, then President of Cooks River Croquet Club. Alison Sharpe, a top Australian international golf (and association) croquet player, enthusiastically added her support and energy to the initiative to bring the tournament to life. FSI is Australia’s richest croquet tournament.
+                            The Fletcher Sharpe Invitational was first played in 2024 as the brainchild of Robert
+                            Fletcher and Georgina Carnegie, then President of Cooks River Croquet Club. Alison Sharpe, a
+                            top Australian international golf (and association) croquet player, enthusiastically added
+                            her support and energy to the initiative to bring the tournament to life. FSI is Australia’s
+                            richest croquet tournament.
                         </p>
 
                         <p>
-                            The tournament was designed to showcase young, top international golf croquet players – their skills, tactical brilliance and individual styles – and to encourage the sport among young Australians. It is also hoped that media coverage will widen public knowledge of the sport.
+                            The tournament was designed to showcase young, top international golf croquet players –
+                            their skills, tactical brilliance and individual styles – and to encourage the sport among
+                            young Australians. It is also hoped that media coverage will widen public knowledge of the
+                            sport.
                         </p>
 
                     </div>
@@ -235,26 +254,25 @@ function Home() {
                     </p>
 
 
-
                     <div className="finalists-images">
 
                         <div className="player-photo">
-                            <img src="/edward.png" alt="edward" />
+                            <img src="/edward.png" alt="edward"/>
                             <p>Edward Wilson</p>
                         </div>
 
                         <div className="player-photo">
-                            <img src="/levi.png" alt="Levi" />
+                            <img src="/levi.png" alt="Levi"/>
                             <p>Levi Franks</p>
                         </div>
 
                         <div className="player-photo">
-                            <img src="/felix.png" alt="felix" />
+                            <img src="/felix.png" alt="felix"/>
                             <p>Felix Gelman White</p>
                         </div>
 
                         <div className="player-photo">
-                            <img src="/josh_winter.jpg" alt="Josh Winter" />
+                            <img src="/josh_winter.jpg" alt="Josh Winter"/>
                             <p>Josh Winter</p>
                         </div>
 
@@ -279,26 +297,25 @@ function Home() {
                     </p>
 
 
-
                     <div className="finalists-images">
 
                         <div className="player-photo">
-                            <img src="/malcolm.jpg" alt="Malcolm Fletcher" />
+                            <img src="/malcolm.jpg" alt="Malcolm Fletcher"/>
                             <p>Malcolm Fletcher</p>
                         </div>
 
                         <div className="player-photo">
-                            <img src="/Greg.JPG" alt="Greg" />
+                            <img src="/Greg.JPG" alt="Greg"/>
                             <p>Greg Fletcher</p>
                         </div>
 
                         <div className="player-photo">
-                            <img src="/levi.png" alt="LEVI" />
+                            <img src="/levi.png" alt="LEVI"/>
                             <p>Levi Franks</p>
                         </div>
 
                         <div className="player-photo">
-                            <img src="/edward.png" alt="Edward Wilson" />
+                            <img src="/edward.png" alt="Edward Wilson"/>
                             <p>Edward Wilson</p>
                         </div>
 
@@ -326,22 +343,22 @@ function Home() {
                     <div className="finalists-images">
 
                         <div className="player-photo">
-                            <img src="/robert.jpeg" alt="Robert Fletcher" />
+                            <img src="/robert.jpeg" alt="Robert Fletcher"/>
                             <p>Robert Fletcher</p>
                         </div>
 
                         <div className="player-photo">
-                            <img src="/Aston.png" alt="Aston Wade" />
+                            <img src="/Aston.png" alt="Aston Wade"/>
                             <p>Aston Wade</p>
                         </div>
 
                         <div className="player-photo">
-                            <img src="/logan.png" alt="Logan McCorkindale" />
+                            <img src="/logan.png" alt="Logan McCorkindale"/>
                             <p>Logan McCorkindale</p>
                         </div>
 
                         <div className="player-photo">
-                            <img src="/edward.png" alt="Edward Wilson" />
+                            <img src="/edward.png" alt="Edward Wilson"/>
                             <p>Edward Wilson</p>
                         </div>
 
@@ -349,8 +366,6 @@ function Home() {
 
 
                 </section>
-
-
 
 
                 {/* PLAYER QUOTE */}
@@ -392,10 +407,9 @@ function Home() {
                         background: "rgba(0,0,0,0.03)",
                         zIndex: 1,
 
-                    }} />
+                    }}/>
 
-                    <div className="crcc-container" style={{ position: "relative", zIndex: 2 }}>
-
+                    <div className="crcc-container" style={{position: "relative", zIndex: 2}}>
 
 
                         <a
@@ -403,8 +417,8 @@ function Home() {
                             target="_blank"
                             rel="noreferrer"
                             className="crcc-card"
-                        > <h2 className="crcc-title" >Hosted by</h2>
-                            <img src="/img_6.png" alt="Cooks River Croquet Club" />
+                        ><h2 className="crcc-title">Hosted by</h2>
+                            <img src="/img_6.png" alt="Cooks River Croquet Club"/>
 
                             <div className="crcc-text">
                                 <h3>Cooks River Croquet Club</h3>
