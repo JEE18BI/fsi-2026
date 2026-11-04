@@ -42,7 +42,9 @@ function Home() {
                 <img src="/hero.png" alt="Sydney" className="hero-bg"/>
 
             </section>
-
+            <p className="tournament-title">
+                FLETCHER SHARPE <span>INVITATIONAL 2027</span>
+            </p>
             {/* DETAILS */}
             {/* TOURNAMENT DETAILS */}
             <section className="details">

@@ -11,7 +11,43 @@
     height: 90vh;
     overflow: hidden;
 }
+.tournament-title {
+    width: 100%;
+    margin: 0 auto 45px;
+    padding: 25px 10px;
 
+    text-align: center;
+
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: clamp(2rem, 5vw, 4.5rem);
+    font-weight: 900;
+    letter-spacing: 3px;
+
+    color: #153d29;
+
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.tournament-title span {
+    color: #b18b36;
+    margin-left: 12px;
+}
+
+@media (max-width: 600px) {
+    .tournament-title {
+        font-size: 1.7rem;
+        line-height: 1.4;
+        letter-spacing: 1px;
+        padding: 15px 5px;
+    }
+
+    .tournament-title span {
+        display: block;
+        margin: 0;
+    }
+}
 /* Background Image */
 .hero-bg {
     position: absolute;
@@ -1480,5 +1516,117 @@ max-width:1200px;
 
     .poster-container {
         max-width: 100%;
+    }
+}
+/* ============================== */
+/* HERO - MOBILE RESPONSIVENESS   */
+/* ============================== */
+
+@media (max-width: 768px) {
+
+    .hero-clean {
+        width: 100%;
+        height: auto;
+        min-height: unset;
+        overflow: hidden;
+        background: #e2eae2;
+    }
+
+    .hero-bg {
+        position: relative;
+        display: block;
+
+        width: 100%;
+        height: auto;
+
+        object-fit: contain;
+        object-position: center;
+
+        top: auto;
+        left: auto;
+    }
+
+    .hero-clean::after {
+        display: none;
+    }
+}
+
+/* EXTRA SMALL PHONES */
+
+@media (max-width: 480px) {
+
+    .hero-clean {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-bg {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+.tournament-title {
+    width: 100%;
+    margin: 0;
+
+    text-align: center;
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: clamp(1.4rem, 3vw, 2.5rem);
+    font-weight: 800;
+    letter-spacing: 2px;
+
+    color: #153d29;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.tournament-title span {
+    color: #b18b36;
+    margin-left: 8px;
+}
+
+@media (max-width: 600px) {
+    .tournament-title {
+        font-size: 1.35rem;
+        line-height: 1.5;
+        padding: 5px 5px 12px;
+        letter-spacing: 1px;
+    }
+
+    .tournament-title span {
+        display: block;
+        margin: 0;
+    }
+}
+/* REMOVE SPACE BETWEEN TITLE AND DETAILS */
+
+.details {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.tournament-title {
+    margin: 0 !important;
+    padding: 18px 10px !important;
+    line-height: 1.2;
+    background: transparent !important;
+}
+
+.details-layout {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .tournament-title {
+        padding: 12px 8px !important;
+    }
+
+    .details {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
