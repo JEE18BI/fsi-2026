@@ -13,13 +13,13 @@ const images = [
 function Home() {
 
     /* accordion state */
-    const [openBoxes, setOpenBoxes] = useState({});
-
-    const toggleCard = (i) => {
-        setOpenBoxes((prev) => ({
-            [i]: !prev[i]  // if already open, close it; otherwise open only this one
-        }));
-    };
+    // const [openBoxes, setOpenBoxes] = useState({});
+    //
+    // const toggleCard = (i) => {
+    //     setOpenBoxes((prev) => ({
+    //         [i]: !prev[i]  // if already open, close it; otherwise open only this one
+    //     }));
+    // };
 
     /* history slider state */
     const [index, setIndex] = useState(0);
@@ -34,125 +34,115 @@ function Home() {
 
     return (
         <div className="home">
-            <div id="tournament-popup" className="tournament-popup">
-                <button className="popup-close"
-                        onClick="document.getElementById('tournament-popup').remove()"
-                        aria-label="Close announcement">
-                    &times;
-                </button>
-
-                <span className="popup-label">COMING SOON</span>
-                <h3>2027 Fletcher Sharpe Invitational</h3>
-                <p>We're working on the 2027 tournament.bv   
-                    Stay tuned for updates!</p>
-            </div>
 
 
 
             {/* HERO */}
             <section className="hero-clean">
-                <img src="/Sydney.png" alt="Sydney" className="hero-bg"/>
-                <div className="hero-content">
-                    <h1>Fletcher Sharpe Invitational</h1>
-                    <h2>Under 35s Golf Croquet Tournament 2026</h2>
-                </div>
+                <img src="/hero.png" alt="Sydney" className="hero-bg"/>
+
             </section>
 
             {/* DETAILS */}
+            {/* TOURNAMENT DETAILS */}
             <section className="details">
+                <div className="details-layout">
 
-                <div className="details-container">
+                    {/* TOURNAMENT POSTER */}
+                    <div className="poster-container">
+                        <img
+                            src="/poster.png"
+                            alt="Fletcher Sharpe Invitational 2027 Poster"
+                            className="tournament-poster"
+                        />
+                    </div>
 
-                    {/* DATE */}
-                    <div className={`detail-box ${openBoxes[0] ? "active" : ""}`}>
-                        <div className="detail-header" onClick={() => toggleCard(0)}>
+                    {/* TOURNAMENT INFORMATION */}
+                    <div className="details-container">
 
+                        {/* DATE */}
+                        <div className="detail-box">
                             <div className="detail-title">
                                 <FaCalendarAlt className="detail-icon"/>
                                 <h3>Date</h3>
                             </div>
 
-                            <FaChevronDown className={`arrow ${openBoxes[0] ? "rotate" : ""}`}/>
+                            <div className="detail-info">
+                                <p className="detail-main">
+                                    Thursday 22 – Monday 26 April 2027
+                                </p>
 
-                        </div>
-
-                        <div className={`detail-content ${openBoxes[0] ? "open" : ""}`}>
-                            <div className="date-info">
-                                <p className="main-date">Wednesday 22 – Saturday 25 April 2026</p>
-
-                                <div className="schedule-box">
-                                    <p>📝 <strong>Registration:</strong> Tuesday afternoon</p>
-                                    <p>🏌️‍♂️ <strong>Competition:</strong> Wednesday morning</p>
+                                <div className="detail-highlight">
+                                    📝 RSVP by 15th of February 2027
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-
-                    {/* LOCATION */}
-                    <div className={`detail-box ${openBoxes[1] ? "active" : ""}`}>
-                        <div className="detail-header" onClick={() => toggleCard(1)}>
-
+                        {/* LOCATION + VIDEO */}
+                        <div className="detail-box location-card">
                             <div className="detail-title">
                                 <FaMapMarkerAlt className="detail-icon"/>
                                 <h3>Location</h3>
                             </div>
 
-                            <FaChevronDown className={`arrow ${openBoxes[1] ? "rotate" : ""}`}/>
+                            <div className="detail-info">
+                                <p className="detail-main">
+                                    Caloundra Mallet Sports Club
+                                </p>
 
-                        </div>
+                                <p>Caloundra, Queensland, Australia</p>
 
-                        <div className={`detail-content ${openBoxes[1] ? "open" : ""}`}>
-                            <p><strong>Cooks River Croquet Club</strong></p>
-                            <p>3 Richardson Crescent, Marrickville NSW.</p>
+                                <div className="location-video-container">
+                                    <div className="video-heading">
+                                        <FaVideo/>
+                                        Discover the Venue
+                                    </div>
 
-                            <div className="transport-info">
-                                <p>🚆 Tempe railway station is across the road (5 mins walk).</p>
-                                <p>✈️ Train connection from Sydney Airport via Central Station.</p>
-                                <p>🚗 Limited parking on site.</p>
+                                    <video
+                                        className="location-video"
+                                        autoPlay
+                                        muted
+                                        loop
+                                        playsInline
+                                        controls
+                                        preload="metadata"
+                                    >
+                                        <source src="/vid.mp4" type="video/mp4"/>
+                                        Your browser does not support this video.
+                                    </video>
+
+                                    <p className="video-caption">
+                                        Caloundra Mallet Sports Club · Queensland, Australia
+                                    </p>
+                                </div>
                             </div>
-
-                            <a
-                                href="https://maps.app.goo.gl/8FfvXnfFGFMXir8Z6" /* You can put the real map link here later */
-                                target="_blank"
-                                rel="noreferrer"
-                                className="map-link"
-                            >
-                                View on Google Maps
-                            </a>
                         </div>
-                    </div>
-                    {/* LOCATION */}
 
-
-                    {/* CONTACT */}
-                    <div className={`detail-box ${openBoxes[2] ? "active" : ""}`}>
-                        <div className="detail-header" onClick={() => toggleCard(2)}>
-
+                        {/* CONTACTS */}
+                        <div className="detail-box">
                             <div className="detail-title">
                                 <FaEnvelope className="detail-icon"/>
                                 <h3>Contacts</h3>
                             </div>
 
-                            <FaChevronDown className={`arrow ${openBoxes[2] ? "rotate" : ""}`}/>
-
-                        </div>
-
-                        <div className={`detail-content ${openBoxes[2] ? "open" : ""}`}>
-                            <div className="contact-info">
+                            <div className="detail-info contact-info">
                                 <p className="contact-name">Alison Sharpe</p>
-                                <p className="contact-desc">For tournament enquiries and registration.</p>
+
+                                <p className="contact-desc">
+                                    For tournament enquiries and registration.
+                                </p>
 
                                 <a href="mailto:Croquet1@outlook.com" className="email-link">
                                     ✉️ Croquet1@outlook.com
                                 </a>
-                            </div>
-                        </div>
-                        <div className={`detail-content ${openBoxes[2] ? "open" : ""}`}>
-                            <div className="contact-info">
+
+                                <div className="contact-divider"></div>
 
                                 <p className="contact-name">Pauline Markwell</p>
-                                <p className="contact-desc">For media enquiries.</p>
+
+                                <p className="contact-desc">
+                                    For media enquiries.
+                                </p>
 
                                 <a href="mailto:markwell.pauline@gmail.com" className="email-link">
                                     ✉️ markwell.pauline@gmail.com
@@ -161,44 +151,29 @@ function Home() {
                                 <a href="tel:+61481159189" className="phone-link">
                                     📞 0481 159 189
                                 </a>
-
                             </div>
                         </div>
+
                         {/* LIVE STREAMING */}
-
-
-                    </div>
-                    <div className={`detail-box ${openBoxes[3] ? "active" : ""}`}>
-                        <div className="detail-header" onClick={() => toggleCard(3)}>
-
+                        <div className="detail-box">
                             <div className="detail-title">
                                 <FaVideo className="detail-icon"/>
                                 <h3>Live Streaming</h3>
                             </div>
 
-                            <FaChevronDown className={`arrow ${openBoxes[3] ? "rotate" : ""}`}/>
+                            <div className="detail-info">
+                                <p className="detail-main">
+                                    Monday 26 April
+                                </p>
 
-                        </div>
-
-                        <div className={`detail-content ${openBoxes[3] ? "open" : ""}`}>
-
-                            <div className="stream-box">
-                                <p className="stream-date">📅 Saturday 25 April</p>
-                                <a
-                                    href="https://youtube.com/live/ChCLM2oT_DY?feature=share"  /* replace later */
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="stream-link"
-                                >
-                                    ▶ Watch on YouTube
-                                </a>
+                                <div className="detail-highlight">
+                                    <FaVideo/> Live coverage of the tournament
+                                </div>
                             </div>
-
-
                         </div>
+
                     </div>
                 </div>
-
             </section>
 
 
@@ -389,48 +364,48 @@ function Home() {
                     </span>
 
                 </section>
-                <section
-                    className="crcc-link-section"
-                    style={{
-                        backgroundImage: "url('/cookwood.jpeg')",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        backgroundRepeat: "no-repeat",
-                        position: "relative"
-                    }}
-                >
+                {/*<section*/}
+                {/*    className="crcc-link-section"*/}
+                {/*    style={{*/}
+                {/*        backgroundImage: "url('/cookwood.jpeg')",*/}
+                {/*        backgroundSize: "cover",*/}
+                {/*        backgroundPosition: "center",*/}
+                {/*        backgroundRepeat: "no-repeat",*/}
+                {/*        position: "relative"*/}
+                {/*    }}*/}
+                {/*>*/}
 
-                    {/* overlay */}
-                    <div style={{
-                        position: "absolute",
-                        inset: 0,
-                        background: "rgba(0,0,0,0.03)",
-                        zIndex: 1,
+                {/*    /!* overlay *!/*/}
+                {/*    <div style={{*/}
+                {/*        position: "absolute",*/}
+                {/*        inset: 0,*/}
+                {/*        background: "rgba(0,0,0,0.03)",*/}
+                {/*        zIndex: 1,*/}
 
-                    }}/>
+                {/*    }}/>*/}
 
-                    <div className="crcc-container" style={{position: "relative", zIndex: 2}}>
+                    {/*<div className="crcc-container" style={{position: "relative", zIndex: 2}}>*/}
 
 
-                        <a
-                            href="https://cooksrivercroquetclub.com/home/"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="crcc-card"
-                        ><h2 className="crcc-title">Hosted by</h2>
-                            <img src="/img_6.png" alt="Cooks River Croquet Club"/>
+                    {/*    <a*/}
+                    {/*        href="https://cooksrivercroquetclub.com/home/"*/}
+                    {/*        target="_blank"*/}
+                    {/*        rel="noreferrer"*/}
+                    {/*        className="crcc-card"*/}
+                    {/*    ><h2 className="crcc-title">Hosted by</h2>*/}
+                    {/*        <img src="/img_6.png" alt="Cooks River Croquet Club"/>*/}
 
-                            <div className="crcc-text">
-                                <h3>Cooks River Croquet Club</h3>
-                                <p className="p-text">
-                                    Click to visit the official website of the host club to learn more
-                                    about the venue, community, and events.
-                                </p>
-                            </div>
-                        </a>
+                    {/*        <div className="crcc-text">*/}
+                    {/*            <h3>Cooks River Croquet Club</h3>*/}
+                    {/*            <p className="p-text">*/}
+                    {/*                Click to visit the official website of the host club to learn more*/}
+                    {/*                about the venue, community, and events.*/}
+                    {/*            </p>*/}
+                    {/*        </div>*/}
+                    {/*    </a>*/}
 
-                    </div>
-                </section>
+                    {/*</div>*/}
+                {/*</section>*/}
 
             </div>
 

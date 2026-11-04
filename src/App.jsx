@@ -19,13 +19,13 @@ function App() {
             <Routes>
 
                 <Route path="/" element={<HomePage />} />
-                <Route path="/schedule" element={<Program />} />
+                {/*<Route path="/schedule" element={<Program />} />*/}
                 <Route path="/thanks" element ={<Sponsors />} />
-                <Route path="/officials" element ={<Officials />} />
-                <Route path="/blocks" element ={<Blocks />} />
-<Route path="/players" element={<Players/>}></Route>
+                {/*<Route path="/officials" element ={<Officials />} />*/}
+                {/*<Route path="/blocks" element ={<Blocks />} />*/}
+{/*<Route path="/players" element={<Players/>}></Route>*/}
                 <Route path="/contact" element={<Contact/>}></Route>
-                <Route path="/gallery" element={<Gallery/>}></Route>
+                {/*<Route path="/gallery" element={<Gallery/>}></Route>*/}
 
 
 

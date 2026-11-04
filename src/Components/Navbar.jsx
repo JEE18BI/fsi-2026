@@ -27,14 +27,14 @@ function Navbar() {
 
                 <div className={`nav-links ${menuOpen ? "open" : ""}`}>
                     <Link to="/">Home</Link>
-                    {/*<Link to="/history">History</Link>*/}
-                    <Link to="/officials">Officials</Link>
-                    <Link to="/schedule">Program</Link>
-                    <Link to="/players">Players</Link>
+                    {/*/!*<Link to="/history">History</Link>*!/*/}
+                    {/*<Link to="/officials">Officials</Link>*/}
+                    {/*<Link to="/schedule">Program</Link>*/}
+                    {/*<Link to="/players">Players</Link>*/}
                     <Link to="/Contact">Contact</Link>
-                    <Link to="/blocks">Blocks</Link>
-                    <Link to="/thanks">Thanks</Link>
-                    <Link to="/gallery">Gallery</Link>
+                    {/*<Link to="/blocks">Blocks</Link>*/}
+                    {/*<Link to="/thanks">Thanks</Link>*/}
+                    {/*<Link to="/gallery">Gallery</Link>*/}
 
                 </div>
 
