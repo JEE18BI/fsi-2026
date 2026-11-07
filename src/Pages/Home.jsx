@@ -1,6 +1,6 @@
 import "./Home.css";
 import { useEffect, useState } from "react";
-import { FaCalendarAlt, FaMapMarkerAlt, FaEnvelope, FaChevronDown } from "react-icons/fa";
+import {FaCalendarAlt, FaMapMarkerAlt, FaEnvelope, FaChevronDown, FaTrophy} from "react-icons/fa";
 import { FaVideo } from "react-icons/fa";
 
 const images = [
@@ -50,15 +50,6 @@ function Home() {
             <section className="details">
                 <div className="details-layout">
 
-                    {/* TOURNAMENT POSTER */}
-                    <div className="poster-container">
-                        <img
-                            src="/poster.png"
-                            alt="Fletcher Sharpe Invitational 2027 Poster"
-                            className="tournament-poster"
-                        />
-                    </div>
-
                     {/* TOURNAMENT INFORMATION */}
                     <div className="details-container">
 
@@ -75,7 +66,14 @@ function Home() {
                                 </p>
 
                                 <div className="detail-highlight">
-                                    📝 RSVP by 15th of February 2027
+                                    <FaCalendarAlt />
+                                    Booking deadline: 15th March 2027
+                                </div>
+
+                                <div className="detail-highlight">
+                                    <FaTrophy />
+                                    Entry Fee: $295
+                                    <span className="student-fee">Students: $150</span>
                                 </div>
                             </div>
                         </div>
@@ -140,19 +138,18 @@ function Home() {
 
                                 <div className="contact-divider"></div>
 
-                                <p className="contact-name">Pauline Markwell</p>
+                                <p className="contact-name">Murray Tinker</p>
 
                                 <p className="contact-desc">
                                     For media enquiries.
                                 </p>
 
-                                <a href="mailto:markwell.pauline@gmail.com" className="email-link">
-                                    ✉️ markwell.pauline@gmail.com
+                                <a href="mailto:2tinkers@gmail.com" className="email-link">
+                                    ✉️ 2tinkers@gmail.com
+
                                 </a>
 
-                                <a href="tel:+61481159189" className="phone-link">
-                                    📞 0481 159 189
-                                </a>
+
                             </div>
                         </div>
 
