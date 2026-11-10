@@ -1,6 +1,6 @@
 import "./Home.css";
 import { useEffect, useState } from "react";
-import {FaCalendarAlt, FaMapMarkerAlt, FaEnvelope, FaChevronDown, FaTrophy} from "react-icons/fa";
+import {FaCalendarAlt, FaMapMarkerAlt, FaEnvelope, FaChevronDown, FaTrophy, FaTicketAlt} from "react-icons/fa";
 import { FaVideo } from "react-icons/fa";
 
 const images = [
@@ -42,9 +42,15 @@ function Home() {
                 <img src="/hero.png" alt="Sydney" className="hero-bg"/>
 
             </section>
-            <p className="tournament-title">
-                FLETCHER SHARPE <span>INVITATIONAL 2027</span>
-            </p>
+            <div className="tournament-heading">
+                <p className="tournament-title">
+                    FLETCHER SHARPE <span>INVITATIONAL 2027</span>
+                </p>
+
+                <p className="tournament-subtitle">
+                    U35 International Golf Croquet Tournament
+                </p>
+            </div>
             {/* DETAILS */}
             {/* TOURNAMENT DETAILS */}
             <section className="details">
@@ -70,11 +76,22 @@ function Home() {
                                     Booking deadline: 15th March 2027
                                 </div>
 
-                                <div className="detail-highlight">
-                                    <FaTrophy />
-                                    Entry Fee: $295
-                                    <span className="student-fee">Students: $150</span>
-                                </div>
+
+                            </div>
+                        </div>
+                        <div className="detail-highlight fee-highlight">
+                            <FaTicketAlt />
+                            <div>
+                                <span className="highlight-label">Entry Fee</span>
+                                <p>$295 <span className="student-fee">Students: $150</span></p>
+                            </div>
+                        </div>
+
+                        <div className="detail-highlight fee-highlight">
+                            <FaTrophy />
+                            <div>
+                                <span className="highlight-label">Prize Pool</span>
+                                <p>$15,000</p>
                             </div>
                         </div>
 

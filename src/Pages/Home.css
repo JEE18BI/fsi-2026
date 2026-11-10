@@ -1641,10 +1641,80 @@ max-width:1200px;
     color: #9b792e;
     font-weight: 700;
 }
+.detail-highlight {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+@media (max-width: 600px) {
+    .tournament-subtitle {
+        font-size: 0.85rem;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        text-align: center;
+        padding: 0 15px 12px;
+        margin: 0 auto;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
 
+.tournament-subtitle {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.85rem, 1.5vw, 1.15rem);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #536b58;
+
+    margin: -8px 0 20px;
+}
+
+@media (max-width: 600px) {
+    .tournament-subtitle {
+        font-size: 0.75rem;
+        letter-spacing: 1px;
+        line-height: 1.6;
+        margin: 0 10px 15px;
+    }
+}
 .detail-highlight {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
+}
+.fee-highlight,
+.prize-highlight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px 20px;
+}
+
+.highlight-label {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #6c806f;
+    margin-bottom: 5px;
+}
+
+.fee-highlight p,
+.prize-highlight p {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #153d29;
+}
+
+.student-fee {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left: 10px;
+    color: #8b7138;
 }

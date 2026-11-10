@@ -53,6 +53,18 @@
     gap: 45px;
     justify-items: center;
 }
+. {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.detail-box.active {
+    border-left: 4px solid var(--gold);
+}
+
 
 /* ================= CARD ================= */
 
